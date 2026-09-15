@@ -1,0 +1,52 @@
+name: 매일 데이터 갱신
+
+on:
+  schedule:
+    # 06:00 KST = 21:00 UTC (전날)
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+
+# 수집 결과를 레포에 커밋해야 하므로 쓰기 권한이 필요하다
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-fetch
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      - run: npm ci
+
+      # 파서 테스트가 먼저 깨지면 공식 사이트 구조가 바뀐 것이다.
+      # 잘못된 데이터를 커밋하기 전에 여기서 멈춘다.
+      - name: 파서 회귀 테스트
+        run: npm test
+
+      - name: 공식 사이트 · 시세 수집
+        run: npm run scrape
+
+      - name: 변경분 커밋
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add public/data public/tags data/scrape-runs.json
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+            exit 0
+          fi
+          SUMMARY=$(node -e "
+            const m = require('./public/data/meta.json');
+            process.stdout.write(\`태그 \${m.counts.tags} / 매장 \${m.counts.places} / 시세 \${m.counts.pricedTags}\`);
+          ")
+          git commit -m "chore: 데이터 갱신 — $SUMMARY"
+          git push

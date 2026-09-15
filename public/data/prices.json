@@ -1,0 +1,1146 @@
+[
+  {
+    "no": "1-1-001",
+    "median": 25000,
+    "samples": 9,
+    "min": 10000,
+    "max": 199000,
+    "observedAt": "2026-09-15T02:37:21.609Z"
+  },
+  {
+    "no": "1-1-002",
+    "median": 26500,
+    "samples": 7,
+    "min": 11000,
+    "max": 70000,
+    "observedAt": "2026-09-15T02:37:21.698Z"
+  },
+  {
+    "no": "1-1-003",
+    "median": 22500,
+    "samples": 8,
+    "min": 14000,
+    "max": 47870,
+    "observedAt": "2026-09-15T02:37:21.623Z"
+  },
+  {
+    "no": "1-1-004",
+    "median": 17500,
+    "samples": 10,
+    "min": 9000,
+    "max": 32000,
+    "observedAt": "2026-09-15T02:37:21.861Z"
+  },
+  {
+    "no": "1-1-005",
+    "median": 15000,
+    "samples": 9,
+    "min": 5000,
+    "max": 61000,
+    "observedAt": "2026-09-15T02:37:21.854Z"
+  },
+  {
+    "no": "1-1-006",
+    "median": 10000,
+    "samples": 10,
+    "min": 3800,
+    "max": 15000,
+    "observedAt": "2026-09-15T02:37:21.924Z"
+  },
+  {
+    "no": "1-1-007",
+    "median": 50000,
+    "samples": 27,
+    "min": 1000,
+    "max": 200000,
+    "observedAt": "2026-09-15T02:37:22.099Z"
+  },
+  {
+    "no": "1-1-008",
+    "median": 12000,
+    "samples": 8,
+    "min": 5000,
+    "max": 20000,
+    "observedAt": "2026-09-15T02:37:22.106Z"
+  },
+  {
+    "no": "1-1-009",
+    "median": 15000,
+    "samples": 6,
+    "min": 9500,
+    "max": 60000,
+    "observedAt": "2026-09-15T02:37:22.174Z"
+  },
+  {
+    "no": "1-1-010",
+    "median": 15000,
+    "samples": 3,
+    "min": 15000,
+    "max": 20000,
+    "observedAt": "2026-09-15T02:37:22.271Z"
+  },
+  {
+    "no": "1-1-011",
+    "median": 5000,
+    "samples": 3,
+    "min": 5000,
+    "max": 6000,
+    "observedAt": "2026-09-15T02:37:22.327Z"
+  },
+  {
+    "no": "1-1-012",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:22.399Z"
+  },
+  {
+    "no": "1-1-013",
+    "median": 5000,
+    "samples": 3,
+    "min": 4000,
+    "max": 70000,
+    "observedAt": "2026-09-15T02:37:22.438Z"
+  },
+  {
+    "no": "1-1-014",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:22.512Z"
+  },
+  {
+    "no": "1-1-015",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:22.622Z"
+  },
+  {
+    "no": "1-1-016",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:22.630Z"
+  },
+  {
+    "no": "1-1-017",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:22.681Z"
+  },
+  {
+    "no": "1-1-018",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:22.795Z"
+  },
+  {
+    "no": "1-1-019",
+    "median": 5000,
+    "samples": 52,
+    "min": 2000,
+    "max": 30000,
+    "observedAt": "2026-09-15T02:37:22.904Z"
+  },
+  {
+    "no": "1-1-020",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:22.860Z"
+  },
+  {
+    "no": "1-1-021",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:22.957Z"
+  },
+  {
+    "no": "1-1-022",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.011Z"
+  },
+  {
+    "no": "1-1-023",
+    "median": null,
+    "samples": 2,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.147Z"
+  },
+  {
+    "no": "1-1-024",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.155Z"
+  },
+  {
+    "no": "1-1-025",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.220Z"
+  },
+  {
+    "no": "1-1-034",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.319Z"
+  },
+  {
+    "no": "1-1-037",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.371Z"
+  },
+  {
+    "no": "1-1-040",
+    "median": null,
+    "samples": 2,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.434Z"
+  },
+  {
+    "no": "1-1-043",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.491Z"
+  },
+  {
+    "no": "1-1-045",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.568Z"
+  },
+  {
+    "no": "1-1-046",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.672Z"
+  },
+  {
+    "no": "1-1-047",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.686Z"
+  },
+  {
+    "no": "1-1-048",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.732Z"
+  },
+  {
+    "no": "1-1-050",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.831Z"
+  },
+  {
+    "no": "1-1-054",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.944Z"
+  },
+  {
+    "no": "1-1-056",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:23.945Z"
+  },
+  {
+    "no": "1-1-059",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.057Z"
+  },
+  {
+    "no": "1-1-062",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.103Z"
+  },
+  {
+    "no": "1-1-064",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.196Z"
+  },
+  {
+    "no": "1-1-066",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.213Z"
+  },
+  {
+    "no": "1-1-067",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.346Z"
+  },
+  {
+    "no": "1-1-070",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.420Z"
+  },
+  {
+    "no": "1-1-027",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.412Z"
+  },
+  {
+    "no": "1-1-029",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.503Z"
+  },
+  {
+    "no": "1-1-031",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.566Z"
+  },
+  {
+    "no": "1-1-033",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.723Z"
+  },
+  {
+    "no": "1-1-036",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.725Z"
+  },
+  {
+    "no": "1-1-039",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.749Z"
+  },
+  {
+    "no": "1-1-042",
+    "median": 5000,
+    "samples": 52,
+    "min": 2000,
+    "max": 30000,
+    "observedAt": "2026-09-15T02:37:24.942Z"
+  },
+  {
+    "no": "1-1-044",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.988Z"
+  },
+  {
+    "no": "1-1-049",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:24.939Z"
+  },
+  {
+    "no": "1-1-052",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.100Z"
+  },
+  {
+    "no": "1-1-055",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.246Z"
+  },
+  {
+    "no": "1-1-058",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.246Z"
+  },
+  {
+    "no": "1-1-061",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.252Z"
+  },
+  {
+    "no": "1-1-068",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.400Z"
+  },
+  {
+    "no": "1-1-026",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.476Z"
+  },
+  {
+    "no": "1-1-028",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.483Z"
+  },
+  {
+    "no": "1-1-030",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.559Z"
+  },
+  {
+    "no": "1-1-032",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.634Z"
+  },
+  {
+    "no": "1-1-035",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.776Z"
+  },
+  {
+    "no": "1-1-038",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.778Z"
+  },
+  {
+    "no": "1-1-041",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.819Z"
+  },
+  {
+    "no": "1-1-051",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.933Z"
+  },
+  {
+    "no": "1-1-053",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:26.009Z"
+  },
+  {
+    "no": "1-1-057",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:25.995Z"
+  },
+  {
+    "no": "1-1-060",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:26.094Z"
+  },
+  {
+    "no": "1-1-063",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:26.157Z"
+  },
+  {
+    "no": "1-1-065",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:26.289Z"
+  },
+  {
+    "no": "1-1-069",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:26.296Z"
+  },
+  {
+    "no": "R-1-1",
+    "median": 5000,
+    "samples": 52,
+    "min": 2000,
+    "max": 30000,
+    "observedAt": "2026-09-15T02:37:26.387Z"
+  },
+  {
+    "no": "R-1-2",
+    "median": 5000,
+    "samples": 3,
+    "min": 3000,
+    "max": 60000,
+    "observedAt": "2026-09-15T02:37:26.453Z"
+  },
+  {
+    "no": "R-1-3",
+    "median": 10700,
+    "samples": 5,
+    "min": 6000,
+    "max": 30000,
+    "observedAt": "2026-09-15T02:37:26.535Z"
+  },
+  {
+    "no": "1-2-001",
+    "median": 25000,
+    "samples": 5,
+    "min": 13250,
+    "max": 40000,
+    "observedAt": "2026-09-15T02:37:26.587Z"
+  },
+  {
+    "no": "1-2-002",
+    "median": 31500,
+    "samples": 8,
+    "min": 23000,
+    "max": 123456,
+    "observedAt": "2026-09-15T02:37:26.642Z"
+  },
+  {
+    "no": "1-2-003",
+    "median": 60000,
+    "samples": 7,
+    "min": 40000,
+    "max": 85000,
+    "observedAt": "2026-09-15T02:37:26.818Z"
+  },
+  {
+    "no": "1-2-004",
+    "median": 5000,
+    "samples": 52,
+    "min": 2000,
+    "max": 30000,
+    "observedAt": "2026-09-15T02:37:26.887Z"
+  },
+  {
+    "no": "1-2-005",
+    "median": 10700,
+    "samples": 5,
+    "min": 6000,
+    "max": 30000,
+    "observedAt": "2026-09-15T02:37:26.880Z"
+  },
+  {
+    "no": "1-2-006",
+    "median": 13500,
+    "samples": 6,
+    "min": 8000,
+    "max": 35000,
+    "observedAt": "2026-09-15T02:37:26.990Z"
+  },
+  {
+    "no": "1-2-007",
+    "median": 24000,
+    "samples": 4,
+    "min": 10630,
+    "max": 55000,
+    "observedAt": "2026-09-15T02:37:27.049Z"
+  },
+  {
+    "no": "1-2-008",
+    "median": 21500,
+    "samples": 10,
+    "min": 13000,
+    "max": 123456,
+    "observedAt": "2026-09-15T02:37:27.106Z"
+  },
+  {
+    "no": "1-2-009",
+    "median": 20000,
+    "samples": 7,
+    "min": 11000,
+    "max": 50000,
+    "observedAt": "2026-09-15T02:37:27.193Z"
+  },
+  {
+    "no": "1-2-010",
+    "median": 14000,
+    "samples": 6,
+    "min": 8000,
+    "max": 23000,
+    "observedAt": "2026-09-15T02:37:27.228Z"
+  },
+  {
+    "no": "1-2-011",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:27.342Z"
+  },
+  {
+    "no": "1-2-012",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:27.411Z"
+  },
+  {
+    "no": "1-2-013",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:27.434Z"
+  },
+  {
+    "no": "1-2-014",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:27.506Z"
+  },
+  {
+    "no": "1-2-015",
+    "median": 5000,
+    "samples": 3,
+    "min": 3000,
+    "max": 60000,
+    "observedAt": "2026-09-15T02:37:27.575Z"
+  },
+  {
+    "no": "1-2-016",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:27.642Z"
+  },
+  {
+    "no": "1-2-017",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:27.694Z"
+  },
+  {
+    "no": "1-2-018",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:27.748Z"
+  },
+  {
+    "no": "1-2-019",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:27.875Z"
+  },
+  {
+    "no": "1-2-020",
+    "median": 15000,
+    "samples": 9,
+    "min": 5000,
+    "max": 61000,
+    "observedAt": "2026-09-15T02:37:27.901Z"
+  },
+  {
+    "no": "1-2-021",
+    "median": 10000,
+    "samples": 10,
+    "min": 3800,
+    "max": 15000,
+    "observedAt": "2026-09-15T02:37:27.955Z"
+  },
+  {
+    "no": "1-2-022",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.031Z"
+  },
+  {
+    "no": "1-2-023",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.146Z"
+  },
+  {
+    "no": "1-2-024",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.153Z"
+  },
+  {
+    "no": "1-2-025",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.204Z"
+  },
+  {
+    "no": "1-2-026",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.387Z"
+  },
+  {
+    "no": "1-2-027",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.414Z"
+  },
+  {
+    "no": "1-2-028",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.453Z"
+  },
+  {
+    "no": "1-2-034",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.556Z"
+  },
+  {
+    "no": "1-2-037",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.611Z"
+  },
+  {
+    "no": "1-2-040",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.663Z"
+  },
+  {
+    "no": "1-2-041",
+    "median": 5000,
+    "samples": 3,
+    "min": 5000,
+    "max": 6000,
+    "observedAt": "2026-09-15T02:37:28.731Z"
+  },
+  {
+    "no": "1-2-042",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.912Z"
+  },
+  {
+    "no": "1-2-043",
+    "median": 5000,
+    "samples": 3,
+    "min": 4000,
+    "max": 70000,
+    "observedAt": "2026-09-15T02:37:28.915Z"
+  },
+  {
+    "no": "1-2-044",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:28.921Z"
+  },
+  {
+    "no": "1-2-046",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.075Z"
+  },
+  {
+    "no": "1-2-049",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.089Z"
+  },
+  {
+    "no": "1-2-051",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.136Z"
+  },
+  {
+    "no": "1-2-056",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.243Z"
+  },
+  {
+    "no": "1-2-062",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.327Z"
+  },
+  {
+    "no": "1-2-064",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.343Z"
+  },
+  {
+    "no": "1-2-069",
+    "median": 24000,
+    "samples": 4,
+    "min": 10630,
+    "max": 55000,
+    "observedAt": "2026-09-15T02:37:29.436Z"
+  },
+  {
+    "no": "1-2-033",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.480Z"
+  },
+  {
+    "no": "1-2-036",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.540Z"
+  },
+  {
+    "no": "1-2-039",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.609Z"
+  },
+  {
+    "no": "1-2-048",
+    "median": null,
+    "samples": 1,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.676Z"
+  },
+  {
+    "no": "1-2-053",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.736Z"
+  },
+  {
+    "no": "1-2-055",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.783Z"
+  },
+  {
+    "no": "1-2-058",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.862Z"
+  },
+  {
+    "no": "1-2-059",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.970Z"
+  },
+  {
+    "no": "1-2-061",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:29.971Z"
+  },
+  {
+    "no": "1-2-063",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.061Z"
+  },
+  {
+    "no": "1-2-065",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.129Z"
+  },
+  {
+    "no": "1-2-066",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.194Z"
+  },
+  {
+    "no": "1-2-068",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.245Z"
+  },
+  {
+    "no": "1-2-070",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.325Z"
+  },
+  {
+    "no": "1-2-029",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.367Z"
+  },
+  {
+    "no": "1-2-030",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.496Z"
+  },
+  {
+    "no": "1-2-031",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.498Z"
+  },
+  {
+    "no": "1-2-032",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.547Z"
+  },
+  {
+    "no": "1-2-035",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.664Z"
+  },
+  {
+    "no": "1-2-038",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.717Z"
+  },
+  {
+    "no": "1-2-045",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.723Z"
+  },
+  {
+    "no": "1-2-047",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.823Z"
+  },
+  {
+    "no": "1-2-050",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.877Z"
+  },
+  {
+    "no": "1-2-052",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:30.877Z"
+  },
+  {
+    "no": "1-2-054",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:31.016Z"
+  },
+  {
+    "no": "1-2-057",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:31.037Z"
+  },
+  {
+    "no": "1-2-060",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:31.043Z"
+  },
+  {
+    "no": "1-2-067",
+    "median": null,
+    "samples": 0,
+    "min": null,
+    "max": null,
+    "observedAt": "2026-09-15T02:37:31.177Z"
+  }
+]

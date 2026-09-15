@@ -1,0 +1,78 @@
+[
+  {
+    "startedAt": "2026-09-15T02:47:09.252Z",
+    "finishedAt": "2026-09-15T02:47:19.301Z",
+    "ok": true,
+    "tags": 143,
+    "places": 372,
+    "pricedTags": 25,
+    "notes": [
+      "place → 372곳",
+      "stage cate=1 \"스타태그 스타더스트 1탄\" → 73개",
+      "stage cate=4 \"스타태그 스타더스트 2탄\" → 73개"
+    ]
+  },
+  {
+    "startedAt": "2026-09-15T02:46:37.394Z",
+    "finishedAt": "2026-09-15T02:46:46.752Z",
+    "ok": true,
+    "tags": 143,
+    "places": 372,
+    "pricedTags": 25,
+    "notes": [
+      "stage cate=1 \"스타태그 스타더스트 1탄\" → 73개",
+      "place → 372곳",
+      "stage cate=4 \"스타태그 스타더스트 2탄\" → 73개"
+    ]
+  },
+  {
+    "startedAt": "2026-09-15T02:38:38.476Z",
+    "finishedAt": "2026-09-15T02:38:48.110Z",
+    "ok": true,
+    "tags": 143,
+    "places": 372,
+    "pricedTags": 25,
+    "notes": [
+      "place → 372곳",
+      "stage cate=1 \"스타태그 스타더스트 1탄\" → 73개",
+      "stage cate=4 \"스타태그 스타더스트 2탄\" → 73개"
+    ]
+  },
+  {
+    "startedAt": "2026-09-15T02:36:51.656Z",
+    "finishedAt": "2026-09-15T02:37:31.180Z",
+    "ok": true,
+    "tags": 143,
+    "places": 372,
+    "pricedTags": 33,
+    "notes": [
+      "place → 372곳",
+      "stage cate=1 \"스타태그 스타더스트 1탄\" → 73개",
+      "stage cate=4 \"스타태그 스타더스트 2탄\" → 73개"
+    ]
+  },
+  {
+    "startedAt": "2026-09-15T02:36:34.472Z",
+    "finishedAt": "2026-09-15T02:36:44.036Z",
+    "ok": true,
+    "tags": 143,
+    "places": 372,
+    "pricedTags": 0,
+    "notes": [
+      "place → 372곳",
+      "stage cate=1 \"스타태그 스타더스트 1탄\" → 73개",
+      "stage cate=4 \"스타태그 스타더스트 2탄\" → 73개"
+    ]
+  },
+  {
+    "startedAt": "2026-09-15T02:35:55.327Z",
+    "finishedAt": "2026-09-15T02:35:55.340Z",
+    "ok": false,
+    "tags": 0,
+    "places": 0,
+    "pricedTags": 0,
+    "notes": [
+      "중단: Cannot convert argument to a ByteString because the character at index 22 has a value of 48708 which is greater than 255."
+    ]
+  }
+]

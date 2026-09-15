@@ -1,0 +1,1003 @@
+[
+  {
+    "no": "1-1-001",
+    "tp": 62.5,
+    "confidence": "market",
+    "priceKrw": 25000,
+    "samples": 9
+  },
+  {
+    "no": "1-1-002",
+    "tp": 66.3,
+    "confidence": "market",
+    "priceKrw": 26500,
+    "samples": 7
+  },
+  {
+    "no": "1-1-003",
+    "tp": 56.3,
+    "confidence": "market",
+    "priceKrw": 22500,
+    "samples": 8
+  },
+  {
+    "no": "1-1-004",
+    "tp": 43.8,
+    "confidence": "market",
+    "priceKrw": 17500,
+    "samples": 10
+  },
+  {
+    "no": "1-1-005",
+    "tp": 37.5,
+    "confidence": "market",
+    "priceKrw": 15000,
+    "samples": 9
+  },
+  {
+    "no": "1-1-006",
+    "tp": 25,
+    "confidence": "market",
+    "priceKrw": 10000,
+    "samples": 10
+  },
+  {
+    "no": "1-1-007",
+    "tp": 125,
+    "confidence": "market",
+    "priceKrw": 50000,
+    "samples": 27
+  },
+  {
+    "no": "1-1-008",
+    "tp": 30,
+    "confidence": "market",
+    "priceKrw": 12000,
+    "samples": 8
+  },
+  {
+    "no": "1-1-009",
+    "tp": 37.5,
+    "confidence": "market",
+    "priceKrw": 15000,
+    "samples": 6
+  },
+  {
+    "no": "1-1-010",
+    "tp": 37.5,
+    "confidence": "market",
+    "priceKrw": 15000,
+    "samples": 3
+  },
+  {
+    "no": "1-1-011",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 3
+  },
+  {
+    "no": "1-1-012",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-013",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 3
+  },
+  {
+    "no": "1-1-014",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-015",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-016",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-017",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-018",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-019",
+    "tp": 12.5,
+    "confidence": "market",
+    "priceKrw": 5000,
+    "samples": 52
+  },
+  {
+    "no": "1-1-020",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-021",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-022",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-023",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 2
+  },
+  {
+    "no": "1-1-024",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-025",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-034",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-037",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-040",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 2
+  },
+  {
+    "no": "1-1-043",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-045",
+    "tp": 0.6,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-046",
+    "tp": 0.7,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-047",
+    "tp": 0.6,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-048",
+    "tp": 0.7,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-050",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-054",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-056",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-059",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-062",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-064",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-066",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-067",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-070",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-027",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-029",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-031",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-033",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-036",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-039",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-042",
+    "tp": 2,
+    "confidence": "market",
+    "priceKrw": 800,
+    "samples": 52
+  },
+  {
+    "no": "1-1-044",
+    "tp": 0.6,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-1-049",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-052",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-055",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-058",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-061",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-068",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-026",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-028",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-030",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-032",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-035",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-038",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-041",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-051",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-053",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-057",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-060",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-063",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-065",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-1-069",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "R-1-1",
+    "tp": 3,
+    "confidence": "market",
+    "priceKrw": 1200,
+    "samples": 52
+  },
+  {
+    "no": "R-1-2",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 3
+  },
+  {
+    "no": "R-1-3",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 5
+  },
+  {
+    "no": "1-2-001",
+    "tp": 62.5,
+    "confidence": "market",
+    "priceKrw": 25000,
+    "samples": 5
+  },
+  {
+    "no": "1-2-002",
+    "tp": 78.8,
+    "confidence": "market",
+    "priceKrw": 31500,
+    "samples": 8
+  },
+  {
+    "no": "1-2-003",
+    "tp": 150,
+    "confidence": "market",
+    "priceKrw": 60000,
+    "samples": 7
+  },
+  {
+    "no": "1-2-004",
+    "tp": 12.5,
+    "confidence": "market",
+    "priceKrw": 5000,
+    "samples": 52
+  },
+  {
+    "no": "1-2-005",
+    "tp": 26.8,
+    "confidence": "market",
+    "priceKrw": 10700,
+    "samples": 5
+  },
+  {
+    "no": "1-2-006",
+    "tp": 33.8,
+    "confidence": "market",
+    "priceKrw": 13500,
+    "samples": 6
+  },
+  {
+    "no": "1-2-007",
+    "tp": 60,
+    "confidence": "market",
+    "priceKrw": 24000,
+    "samples": 4
+  },
+  {
+    "no": "1-2-008",
+    "tp": 53.8,
+    "confidence": "market",
+    "priceKrw": 21500,
+    "samples": 10
+  },
+  {
+    "no": "1-2-009",
+    "tp": 50,
+    "confidence": "market",
+    "priceKrw": 20000,
+    "samples": 7
+  },
+  {
+    "no": "1-2-010",
+    "tp": 35,
+    "confidence": "market",
+    "priceKrw": 14000,
+    "samples": 6
+  },
+  {
+    "no": "1-2-011",
+    "tp": 12,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-2-012",
+    "tp": 14,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-2-013",
+    "tp": 12,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-014",
+    "tp": 13,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-015",
+    "tp": 14,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 3
+  },
+  {
+    "no": "1-2-016",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-017",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-018",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-019",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-020",
+    "tp": 37.5,
+    "confidence": "market",
+    "priceKrw": 15000,
+    "samples": 9
+  },
+  {
+    "no": "1-2-021",
+    "tp": 25,
+    "confidence": "market",
+    "priceKrw": 10000,
+    "samples": 10
+  },
+  {
+    "no": "1-2-022",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-023",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-024",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-025",
+    "tp": 10,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-026",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-027",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-028",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-034",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-037",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-040",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-041",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 3
+  },
+  {
+    "no": "1-2-042",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-2-043",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 3
+  },
+  {
+    "no": "1-2-044",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-2-046",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-049",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-2-051",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-056",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-2-062",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-064",
+    "tp": 0.5,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-069",
+    "tp": 0.7,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 4
+  },
+  {
+    "no": "1-2-033",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-036",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-039",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-048",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
+  },
+  {
+    "no": "1-2-053",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-055",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-058",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-059",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-061",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-063",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-065",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-066",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-068",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-070",
+    "tp": 0.4,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-029",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-030",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-031",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-032",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-035",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-038",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-045",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-047",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-050",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-052",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-054",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-057",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-060",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  },
+  {
+    "no": "1-2-067",
+    "tp": 0.3,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 0
+  }
+]

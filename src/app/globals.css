@@ -1,0 +1,160 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink-950: #07060f;
+  --color-ink-900: #0c0a1a;
+  --color-ink-800: #151130;
+  --color-ink-700: #221c46;
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(120% 80% at 12% -10%, rgba(124, 58, 237, 0.30), transparent 60%),
+    radial-gradient(100% 70% at 92% 0%, rgba(14, 165, 233, 0.22), transparent 55%),
+    radial-gradient(90% 60% at 50% 110%, rgba(236, 72, 153, 0.16), transparent 60%),
+    var(--color-ink-950);
+  background-attachment: fixed;
+  color: #e9e7ff;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── 프리즘 태그 ──────────────────────────────────────────────
+   WebGL 없이 CSS 레이어 합성만으로 홀로그램을 만든다.
+   저가 안드로이드에서도 60fps 가 나오고 발열이 없다. */
+.prism-stage {
+  perspective: 1100px;
+}
+
+.prism-card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 140ms ease-out;
+  will-change: transform;
+}
+
+.prism-card.is-settling {
+  transition: transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.prism-face {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  height: 100%;
+}
+
+/* 무지개 결: 기울기에 따라 위치가 움직인다 */
+.prism-pattern {
+  position: absolute;
+  inset: -20%;
+  pointer-events: none;
+  background-image:
+    repeating-linear-gradient(
+      var(--holo-angle, 115deg),
+      rgba(255, 0, 132, 0.55) 0%,
+      rgba(255, 213, 0, 0.55) 12%,
+      rgba(0, 255, 168, 0.55) 24%,
+      rgba(0, 176, 255, 0.55) 36%,
+      rgba(160, 0, 255, 0.55) 48%,
+      rgba(255, 0, 132, 0.55) 60%
+    );
+  background-size: 260% 260%;
+  background-position: var(--holo-x, 50%) var(--holo-y, 50%);
+  mix-blend-mode: color-dodge;
+  opacity: var(--holo-strength, 0.35);
+  filter: brightness(1.05) contrast(1.25);
+}
+
+/* 광택: 빛이 카드 표면을 훑고 지나가는 느낌 */
+.prism-glare {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    farthest-corner circle at var(--glare-x, 50%) var(--glare-y, 50%),
+    rgba(255, 255, 255, 0.72) 6%,
+    rgba(255, 255, 255, 0.18) 28%,
+    rgba(120, 120, 180, 0.05) 52%,
+    rgba(0, 0, 0, 0.25) 100%
+  );
+  mix-blend-mode: overlay;
+  opacity: var(--glare-strength, 0.5);
+}
+
+/* 움직임을 줄이도록 설정한 사용자에게는 정지 상태로 보여준다 */
+@media (prefers-reduced-motion: reduce) {
+  .prism-card { transition: none !important; transform: none !important; }
+  .prism-pattern { opacity: 0.18; }
+  .prism-glare { opacity: 0.25; }
+}
+
+/* ── Leaflet 어두운 배경에 맞추기 ───────────────────────────── */
+.leaflet-container {
+  background: var(--color-ink-900);
+  font-family: var(--font-sans);
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--color-ink-800);
+  color: #e9e7ff;
+  border: 1px solid rgba(167, 139, 250, 0.35);
+}
+.leaflet-popup-content { margin: 0.75rem 0.9rem; }
+.leaflet-control-attribution {
+  background: rgba(7, 6, 15, 0.75) !important;
+  color: #8b86b8 !important;
+}
+.leaflet-control-attribution a { color: #a9a3e0 !important; }
+.leaflet-bar a {
+  background: var(--color-ink-800) !important;
+  color: #e9e7ff !important;
+  border-color: rgba(167, 139, 250, 0.3) !important;
+}
+.tag-cluster {
+  display: grid;
+  place-items: center;
+  border-radius: 9999px;
+  background: rgba(139, 92, 246, 0.85);
+  color: #fff;
+  font-weight: 700;
+  border: 2px solid rgba(233, 231, 255, 0.85);
+  box-shadow: 0 0 18px -4px rgba(139, 92, 246, 0.9);
+}
+
+/* 기울기(바깥)와 앞뒤 뒤집기(안쪽)를 분리해야 두 변환이 서로를 덮어쓰지 않는다 */
+.prism-flipper {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 520ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.prism-flipper.is-flipped {
+  transform: rotateY(180deg);
+}
+/* 앞뒤 두 면 모두 3D 컨텍스트 안에서 직접 backface-visibility 를 가져야
+   뒤를 보는 면이 거울상으로 비쳐 보이지 않는다. */
+.prism-side {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.prism-side-back {
+  transform: rotateY(180deg);
+}
+
+/* OSM 표준 타일을 어두운 화면에 맞춰 반전시킨다.
+   타일 레이어에만 걸리므로 마커·팝업 색은 그대로 유지된다. */
+.leaflet-tile-pane {
+  filter: invert(1) hue-rotate(200deg) brightness(0.82) contrast(0.95) saturate(0.28);
+}

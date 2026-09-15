@@ -1,0 +1,2004 @@
+[
+  {
+    "no": "1-1-001",
+    "name": "뮤츠",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 176,
+    "images": {
+      "thumb": "/tags/1-1-001-thumb.png",
+      "front": "/tags/1-1-001-front.png",
+      "back": "/tags/1-1-001-back.png"
+    }
+  },
+  {
+    "no": "1-1-002",
+    "name": "뮤",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 177,
+    "images": {
+      "thumb": "/tags/1-1-002-thumb.png",
+      "front": "/tags/1-1-002-front.png",
+      "back": "/tags/1-1-002-back.png"
+    }
+  },
+  {
+    "no": "1-1-003",
+    "name": "자시안",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 178,
+    "images": {
+      "thumb": "/tags/1-1-003-thumb.png",
+      "front": "/tags/1-1-003-front.png",
+      "back": "/tags/1-1-003-back.png"
+    }
+  },
+  {
+    "no": "1-1-004",
+    "name": "자마젠타",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 179,
+    "images": {
+      "thumb": "/tags/1-1-004-thumb.png",
+      "front": "/tags/1-1-004-front.png",
+      "back": "/tags/1-1-004-back.png"
+    }
+  },
+  {
+    "no": "1-1-005",
+    "name": "마기라스",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 180,
+    "images": {
+      "thumb": "/tags/1-1-005-thumb.png",
+      "front": "/tags/1-1-005-front.png",
+      "back": "/tags/1-1-005-back.png"
+    }
+  },
+  {
+    "no": "1-1-006",
+    "name": "메타그로스",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 181,
+    "images": {
+      "thumb": "/tags/1-1-006-thumb.png",
+      "front": "/tags/1-1-006-front.png",
+      "back": "/tags/1-1-006-back.png"
+    }
+  },
+  {
+    "no": "1-1-007",
+    "name": "미라이돈",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 182,
+    "images": {
+      "thumb": "/tags/1-1-007-thumb.png",
+      "front": "/tags/1-1-007-front.png",
+      "back": "/tags/1-1-007-back.png"
+    }
+  },
+  {
+    "no": "1-1-008",
+    "name": "이상해꽃",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 183,
+    "images": {
+      "thumb": "/tags/1-1-008-thumb.png",
+      "front": "/tags/1-1-008-front.png",
+      "back": "/tags/1-1-008-back.png"
+    }
+  },
+  {
+    "no": "1-1-009",
+    "name": "리자몽",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 184,
+    "images": {
+      "thumb": "/tags/1-1-009-thumb.png",
+      "front": "/tags/1-1-009-front.png",
+      "back": "/tags/1-1-009-back.png"
+    }
+  },
+  {
+    "no": "1-1-010",
+    "name": "거북왕",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 185,
+    "images": {
+      "thumb": "/tags/1-1-010-thumb.png",
+      "front": "/tags/1-1-010-front.png",
+      "back": "/tags/1-1-010-back.png"
+    }
+  },
+  {
+    "no": "1-1-011",
+    "name": "샤미드",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 35,
+    "images": {
+      "thumb": "/tags/1-1-011-thumb.png",
+      "front": "/tags/1-1-011-front.png",
+      "back": "/tags/1-1-011-back.png"
+    }
+  },
+  {
+    "no": "1-1-012",
+    "name": "부스터",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 36,
+    "images": {
+      "thumb": "/tags/1-1-012-thumb.png",
+      "front": "/tags/1-1-012-front.png",
+      "back": "/tags/1-1-012-back.png"
+    }
+  },
+  {
+    "no": "1-1-013",
+    "name": "블래키",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 37,
+    "images": {
+      "thumb": "/tags/1-1-013-thumb.png",
+      "front": "/tags/1-1-013-front.png",
+      "back": "/tags/1-1-013-back.png"
+    }
+  },
+  {
+    "no": "1-1-014",
+    "name": "글레이시아",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 100,
+    "images": {
+      "thumb": "/tags/1-1-014-thumb.png",
+      "front": "/tags/1-1-014-front.png",
+      "back": "/tags/1-1-014-back.png"
+    }
+  },
+  {
+    "no": "1-1-015",
+    "name": "피죤투",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 101,
+    "images": {
+      "thumb": "/tags/1-1-015-thumb.png",
+      "front": "/tags/1-1-015-front.png",
+      "back": "/tags/1-1-015-back.png"
+    }
+  },
+  {
+    "no": "1-1-016",
+    "name": "팬텀",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 102,
+    "images": {
+      "thumb": "/tags/1-1-016-thumb.png",
+      "front": "/tags/1-1-016-front.png",
+      "back": "/tags/1-1-016-back.png"
+    }
+  },
+  {
+    "no": "1-1-017",
+    "name": "윈디",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 103,
+    "images": {
+      "thumb": "/tags/1-1-017-thumb.png",
+      "front": "/tags/1-1-017-front.png",
+      "back": "/tags/1-1-017-back.png"
+    }
+  },
+  {
+    "no": "1-1-018",
+    "name": "거대코뿌리",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 104,
+    "images": {
+      "thumb": "/tags/1-1-018-thumb.png",
+      "front": "/tags/1-1-018-front.png",
+      "back": "/tags/1-1-018-back.png"
+    }
+  },
+  {
+    "no": "1-1-019",
+    "name": "피카츄",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 105,
+    "images": {
+      "thumb": "/tags/1-1-019-thumb.png",
+      "front": "/tags/1-1-019-front.png",
+      "back": "/tags/1-1-019-back.png"
+    }
+  },
+  {
+    "no": "1-1-020",
+    "name": "플라이곤",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 106,
+    "images": {
+      "thumb": "/tags/1-1-020-thumb.png",
+      "front": "/tags/1-1-020-front.png",
+      "back": "/tags/1-1-020-back.png"
+    }
+  },
+  {
+    "no": "1-1-021",
+    "name": "고릴타",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 107,
+    "images": {
+      "thumb": "/tags/1-1-021-thumb.png",
+      "front": "/tags/1-1-021-front.png",
+      "back": "/tags/1-1-021-back.png"
+    }
+  },
+  {
+    "no": "1-1-022",
+    "name": "에이스번",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 108,
+    "images": {
+      "thumb": "/tags/1-1-022-thumb.png",
+      "front": "/tags/1-1-022-front.png",
+      "back": "/tags/1-1-022-back.png"
+    }
+  },
+  {
+    "no": "1-1-023",
+    "name": "인텔리레온",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 109,
+    "images": {
+      "thumb": "/tags/1-1-023-thumb.png",
+      "front": "/tags/1-1-023-front.png",
+      "back": "/tags/1-1-023-back.png"
+    }
+  },
+  {
+    "no": "1-1-024",
+    "name": "가로막구리",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 110,
+    "images": {
+      "thumb": "/tags/1-1-024-thumb.png",
+      "front": "/tags/1-1-024-front.png",
+      "back": "/tags/1-1-024-back.png"
+    }
+  },
+  {
+    "no": "1-1-025",
+    "name": "케르디오",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 111,
+    "images": {
+      "thumb": "/tags/1-1-025-thumb.png",
+      "front": "/tags/1-1-025-front.png",
+      "back": "/tags/1-1-025-back.png"
+    }
+  },
+  {
+    "no": "1-1-034",
+    "name": "고릴타",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 186,
+    "images": {
+      "thumb": "/tags/1-1-034-thumb.png",
+      "front": "/tags/1-1-034-front.png",
+      "back": "/tags/1-1-034-back.png"
+    }
+  },
+  {
+    "no": "1-1-037",
+    "name": "에이스번",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 113,
+    "images": {
+      "thumb": "/tags/1-1-037-thumb.png",
+      "front": "/tags/1-1-037-front.png",
+      "back": "/tags/1-1-037-back.png"
+    }
+  },
+  {
+    "no": "1-1-040",
+    "name": "인텔리레온",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 114,
+    "images": {
+      "thumb": "/tags/1-1-040-thumb.png",
+      "front": "/tags/1-1-040-front.png",
+      "back": "/tags/1-1-040-back.png"
+    }
+  },
+  {
+    "no": "1-1-043",
+    "name": "라이츄",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 115,
+    "images": {
+      "thumb": "/tags/1-1-043-thumb.png",
+      "front": "/tags/1-1-043-front.png",
+      "back": "/tags/1-1-043-back.png"
+    }
+  },
+  {
+    "no": "1-1-045",
+    "name": "쥬피썬더",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 116,
+    "images": {
+      "thumb": "/tags/1-1-045-thumb.png",
+      "front": "/tags/1-1-045-front.png",
+      "back": "/tags/1-1-045-back.png"
+    }
+  },
+  {
+    "no": "1-1-046",
+    "name": "에브이",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 117,
+    "images": {
+      "thumb": "/tags/1-1-046-thumb.png",
+      "front": "/tags/1-1-046-front.png",
+      "back": "/tags/1-1-046-back.png"
+    }
+  },
+  {
+    "no": "1-1-047",
+    "name": "리피아",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 118,
+    "images": {
+      "thumb": "/tags/1-1-047-thumb.png",
+      "front": "/tags/1-1-047-front.png",
+      "back": "/tags/1-1-047-back.png"
+    }
+  },
+  {
+    "no": "1-1-048",
+    "name": "님피아",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 119,
+    "images": {
+      "thumb": "/tags/1-1-048-thumb.png",
+      "front": "/tags/1-1-048-front.png",
+      "back": "/tags/1-1-048-back.png"
+    }
+  },
+  {
+    "no": "1-1-050",
+    "name": "포푸니라",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 120,
+    "images": {
+      "thumb": "/tags/1-1-050-thumb.png",
+      "front": "/tags/1-1-050-front.png",
+      "back": "/tags/1-1-050-back.png"
+    }
+  },
+  {
+    "no": "1-1-054",
+    "name": "야도란",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 121,
+    "images": {
+      "thumb": "/tags/1-1-054-thumb.png",
+      "front": "/tags/1-1-054-front.png",
+      "back": "/tags/1-1-054-back.png"
+    }
+  },
+  {
+    "no": "1-1-056",
+    "name": "만마드",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 122,
+    "images": {
+      "thumb": "/tags/1-1-056-thumb.png",
+      "front": "/tags/1-1-056-front.png",
+      "back": "/tags/1-1-056-back.png"
+    }
+  },
+  {
+    "no": "1-1-059",
+    "name": "가로막구리",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 123,
+    "images": {
+      "thumb": "/tags/1-1-059-thumb.png",
+      "front": "/tags/1-1-059-front.png",
+      "back": "/tags/1-1-059-back.png"
+    }
+  },
+  {
+    "no": "1-1-062",
+    "name": "투구뿌논",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 124,
+    "images": {
+      "thumb": "/tags/1-1-062-thumb.png",
+      "front": "/tags/1-1-062-front.png",
+      "back": "/tags/1-1-062-back.png"
+    }
+  },
+  {
+    "no": "1-1-064",
+    "name": "두트리오",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 125,
+    "images": {
+      "thumb": "/tags/1-1-064-thumb.png",
+      "front": "/tags/1-1-064-front.png",
+      "back": "/tags/1-1-064-back.png"
+    }
+  },
+  {
+    "no": "1-1-066",
+    "name": "백솜모카",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 126,
+    "images": {
+      "thumb": "/tags/1-1-066-thumb.png",
+      "front": "/tags/1-1-066-front.png",
+      "back": "/tags/1-1-066-back.png"
+    }
+  },
+  {
+    "no": "1-1-067",
+    "name": "폭거북스",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 127,
+    "images": {
+      "thumb": "/tags/1-1-067-thumb.png",
+      "front": "/tags/1-1-067-front.png",
+      "back": "/tags/1-1-067-back.png"
+    }
+  },
+  {
+    "no": "1-1-070",
+    "name": "모스노우",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 128,
+    "images": {
+      "thumb": "/tags/1-1-070-thumb.png",
+      "front": "/tags/1-1-070-front.png",
+      "back": "/tags/1-1-070-back.png"
+    }
+  },
+  {
+    "no": "1-1-027",
+    "name": "나로테",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 129,
+    "images": {
+      "thumb": "/tags/1-1-027-thumb.png",
+      "front": "/tags/1-1-027-front.png",
+      "back": "/tags/1-1-027-back.png"
+    }
+  },
+  {
+    "no": "1-1-029",
+    "name": "악뜨거",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 130,
+    "images": {
+      "thumb": "/tags/1-1-029-thumb.png",
+      "front": "/tags/1-1-029-front.png",
+      "back": "/tags/1-1-029-back.png"
+    }
+  },
+  {
+    "no": "1-1-031",
+    "name": "아꾸왁",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 131,
+    "images": {
+      "thumb": "/tags/1-1-031-thumb.png",
+      "front": "/tags/1-1-031-front.png",
+      "back": "/tags/1-1-031-back.png"
+    }
+  },
+  {
+    "no": "1-1-033",
+    "name": "채키몽",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 132,
+    "images": {
+      "thumb": "/tags/1-1-033-thumb.png",
+      "front": "/tags/1-1-033-front.png",
+      "back": "/tags/1-1-033-back.png"
+    }
+  },
+  {
+    "no": "1-1-036",
+    "name": "래비풋",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 133,
+    "images": {
+      "thumb": "/tags/1-1-036-thumb.png",
+      "front": "/tags/1-1-036-front.png",
+      "back": "/tags/1-1-036-back.png"
+    }
+  },
+  {
+    "no": "1-1-039",
+    "name": "누겔레온",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 134,
+    "images": {
+      "thumb": "/tags/1-1-039-thumb.png",
+      "front": "/tags/1-1-039-front.png",
+      "back": "/tags/1-1-039-back.png"
+    }
+  },
+  {
+    "no": "1-1-042",
+    "name": "피카츄",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 135,
+    "images": {
+      "thumb": "/tags/1-1-042-thumb.png",
+      "front": "/tags/1-1-042-front.png",
+      "back": "/tags/1-1-042-back.png"
+    }
+  },
+  {
+    "no": "1-1-044",
+    "name": "이브이",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 136,
+    "images": {
+      "thumb": "/tags/1-1-044-thumb.png",
+      "front": "/tags/1-1-044-front.png",
+      "back": "/tags/1-1-044-back.png"
+    }
+  },
+  {
+    "no": "1-1-049",
+    "name": "포푸니",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 137,
+    "images": {
+      "thumb": "/tags/1-1-049-thumb.png",
+      "front": "/tags/1-1-049-front.png",
+      "back": "/tags/1-1-049-back.png"
+    }
+  },
+  {
+    "no": "1-1-052",
+    "name": "골루그",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 138,
+    "images": {
+      "thumb": "/tags/1-1-052-thumb.png",
+      "front": "/tags/1-1-052-front.png",
+      "back": "/tags/1-1-052-back.png"
+    }
+  },
+  {
+    "no": "1-1-055",
+    "name": "머드나기",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 139,
+    "images": {
+      "thumb": "/tags/1-1-055-thumb.png",
+      "front": "/tags/1-1-055-front.png",
+      "back": "/tags/1-1-055-back.png"
+    }
+  },
+  {
+    "no": "1-1-058",
+    "name": "가라르 직구리",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 140,
+    "images": {
+      "thumb": "/tags/1-1-058-thumb.png",
+      "front": "/tags/1-1-058-front.png",
+      "back": "/tags/1-1-058-back.png"
+    }
+  },
+  {
+    "no": "1-1-061",
+    "name": "전지충이",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 141,
+    "images": {
+      "thumb": "/tags/1-1-061-thumb.png",
+      "front": "/tags/1-1-061-front.png",
+      "back": "/tags/1-1-061-back.png"
+    }
+  },
+  {
+    "no": "1-1-068",
+    "name": "윽우지",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 142,
+    "images": {
+      "thumb": "/tags/1-1-068-thumb.png",
+      "front": "/tags/1-1-068-front.png",
+      "back": "/tags/1-1-068-back.png"
+    }
+  },
+  {
+    "no": "1-1-026",
+    "name": "나오하",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 143,
+    "images": {
+      "thumb": "/tags/1-1-026-thumb.png",
+      "front": "/tags/1-1-026-front.png",
+      "back": "/tags/1-1-026-back.png"
+    }
+  },
+  {
+    "no": "1-1-028",
+    "name": "뜨아거",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 144,
+    "images": {
+      "thumb": "/tags/1-1-028-thumb.png",
+      "front": "/tags/1-1-028-front.png",
+      "back": "/tags/1-1-028-back.png"
+    }
+  },
+  {
+    "no": "1-1-030",
+    "name": "꾸왁스",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 146,
+    "images": {
+      "thumb": "/tags/1-1-030-thumb.png",
+      "front": "/tags/1-1-030-front.png",
+      "back": "/tags/1-1-030-back.png"
+    }
+  },
+  {
+    "no": "1-1-032",
+    "name": "흥나숭",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 147,
+    "images": {
+      "thumb": "/tags/1-1-032-thumb.png",
+      "front": "/tags/1-1-032-front.png",
+      "back": "/tags/1-1-032-back.png"
+    }
+  },
+  {
+    "no": "1-1-035",
+    "name": "염버니",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 148,
+    "images": {
+      "thumb": "/tags/1-1-035-thumb.png",
+      "front": "/tags/1-1-035-front.png",
+      "back": "/tags/1-1-035-back.png"
+    }
+  },
+  {
+    "no": "1-1-038",
+    "name": "울머기",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 149,
+    "images": {
+      "thumb": "/tags/1-1-038-thumb.png",
+      "front": "/tags/1-1-038-front.png",
+      "back": "/tags/1-1-038-back.png"
+    }
+  },
+  {
+    "no": "1-1-041",
+    "name": "데덴네",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 150,
+    "images": {
+      "thumb": "/tags/1-1-041-thumb.png",
+      "front": "/tags/1-1-041-front.png",
+      "back": "/tags/1-1-041-back.png"
+    }
+  },
+  {
+    "no": "1-1-051",
+    "name": "골비람",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 151,
+    "images": {
+      "thumb": "/tags/1-1-051-thumb.png",
+      "front": "/tags/1-1-051-front.png",
+      "back": "/tags/1-1-051-back.png"
+    }
+  },
+  {
+    "no": "1-1-053",
+    "name": "야돈",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 152,
+    "images": {
+      "thumb": "/tags/1-1-053-thumb.png",
+      "front": "/tags/1-1-053-front.png",
+      "back": "/tags/1-1-053-back.png"
+    }
+  },
+  {
+    "no": "1-1-057",
+    "name": "가라르 지그제구리",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 153,
+    "images": {
+      "thumb": "/tags/1-1-057-thumb.png",
+      "front": "/tags/1-1-057-front.png",
+      "back": "/tags/1-1-057-back.png"
+    }
+  },
+  {
+    "no": "1-1-060",
+    "name": "턱지충이",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 154,
+    "images": {
+      "thumb": "/tags/1-1-060-thumb.png",
+      "front": "/tags/1-1-060-front.png",
+      "back": "/tags/1-1-060-back.png"
+    }
+  },
+  {
+    "no": "1-1-063",
+    "name": "두두",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 155,
+    "images": {
+      "thumb": "/tags/1-1-063-thumb.png",
+      "front": "/tags/1-1-063-front.png",
+      "back": "/tags/1-1-063-back.png"
+    }
+  },
+  {
+    "no": "1-1-065",
+    "name": "꼬모카",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 156,
+    "images": {
+      "thumb": "/tags/1-1-065-thumb.png",
+      "front": "/tags/1-1-065-front.png",
+      "back": "/tags/1-1-065-back.png"
+    }
+  },
+  {
+    "no": "1-1-069",
+    "name": "누니머기",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 157,
+    "images": {
+      "thumb": "/tags/1-1-069-thumb.png",
+      "front": "/tags/1-1-069-front.png",
+      "back": "/tags/1-1-069-back.png"
+    }
+  },
+  {
+    "no": "R-1-1",
+    "name": "피카츄",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 0,
+    "rarityLabel": "레귤러",
+    "sourceIdx": 158,
+    "images": {
+      "thumb": "/tags/R-1-1-thumb.png",
+      "front": "/tags/R-1-1-front.png",
+      "back": "/tags/R-1-1-back.png"
+    }
+  },
+  {
+    "no": "R-1-2",
+    "name": "루카리오",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 0,
+    "rarityLabel": "레귤러",
+    "sourceIdx": 159,
+    "images": {
+      "thumb": "/tags/R-1-2-thumb.png",
+      "front": "/tags/R-1-2-front.png",
+      "back": "/tags/R-1-2-back.png"
+    }
+  },
+  {
+    "no": "R-1-3",
+    "name": "잠만보",
+    "stage": 1,
+    "stageLabel": "스타태그 스타더스트 1탄",
+    "rarity": 0,
+    "rarityLabel": "레귤러",
+    "sourceIdx": 164,
+    "images": {
+      "thumb": "/tags/R-1-3-thumb.png",
+      "front": "/tags/R-1-3-front.png",
+      "back": "/tags/R-1-3-back.png"
+    }
+  },
+  {
+    "no": "1-2-001",
+    "name": "가이오가",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 195,
+    "images": {
+      "thumb": "/tags/1-2-001-thumb.png",
+      "front": "/tags/1-2-001-front.png",
+      "back": "/tags/1-2-001-back.png"
+    }
+  },
+  {
+    "no": "1-2-002",
+    "name": "그란돈",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 196,
+    "images": {
+      "thumb": "/tags/1-2-002-thumb.png",
+      "front": "/tags/1-2-002-front.png",
+      "back": "/tags/1-2-002-back.png"
+    }
+  },
+  {
+    "no": "1-2-003",
+    "name": "코라이돈",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 197,
+    "images": {
+      "thumb": "/tags/1-2-003-thumb.png",
+      "front": "/tags/1-2-003-front.png",
+      "back": "/tags/1-2-003-back.png"
+    }
+  },
+  {
+    "no": "1-2-004",
+    "name": "피카츄",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 198,
+    "images": {
+      "thumb": "/tags/1-2-004-thumb.png",
+      "front": "/tags/1-2-004-front.png",
+      "back": "/tags/1-2-004-back.png"
+    }
+  },
+  {
+    "no": "1-2-005",
+    "name": "잠만보",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 199,
+    "images": {
+      "thumb": "/tags/1-2-005-thumb.png",
+      "front": "/tags/1-2-005-front.png",
+      "back": "/tags/1-2-005-back.png"
+    }
+  },
+  {
+    "no": "1-2-006",
+    "name": "짜랑고우거",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 200,
+    "images": {
+      "thumb": "/tags/1-2-006-thumb.png",
+      "front": "/tags/1-2-006-front.png",
+      "back": "/tags/1-2-006-back.png"
+    }
+  },
+  {
+    "no": "1-2-007",
+    "name": "가디안",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 201,
+    "images": {
+      "thumb": "/tags/1-2-007-thumb.png",
+      "front": "/tags/1-2-007-front.png",
+      "back": "/tags/1-2-007-back.png"
+    }
+  },
+  {
+    "no": "1-2-008",
+    "name": "레시라무",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 202,
+    "images": {
+      "thumb": "/tags/1-2-008-thumb.png",
+      "front": "/tags/1-2-008-front.png",
+      "back": "/tags/1-2-008-back.png"
+    }
+  },
+  {
+    "no": "1-2-009",
+    "name": "제크로무",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 203,
+    "images": {
+      "thumb": "/tags/1-2-009-thumb.png",
+      "front": "/tags/1-2-009-front.png",
+      "back": "/tags/1-2-009-back.png"
+    }
+  },
+  {
+    "no": "1-2-010",
+    "name": "큐레무",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 6,
+    "rarityLabel": "슈퍼스타 ★6",
+    "sourceIdx": 204,
+    "images": {
+      "thumb": "/tags/1-2-010-thumb.png",
+      "front": "/tags/1-2-010-front.png",
+      "back": "/tags/1-2-010-back.png"
+    }
+  },
+  {
+    "no": "1-2-011",
+    "name": "쥬피썬더",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 213,
+    "images": {
+      "thumb": "/tags/1-2-011-thumb.png",
+      "front": "/tags/1-2-011-front.png",
+      "back": "/tags/1-2-011-back.png"
+    }
+  },
+  {
+    "no": "1-2-012",
+    "name": "에브이",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 214,
+    "images": {
+      "thumb": "/tags/1-2-012-thumb.png",
+      "front": "/tags/1-2-012-front.png",
+      "back": "/tags/1-2-012-back.png"
+    }
+  },
+  {
+    "no": "1-2-013",
+    "name": "리피아",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 215,
+    "images": {
+      "thumb": "/tags/1-2-013-thumb.png",
+      "front": "/tags/1-2-013-front.png",
+      "back": "/tags/1-2-013-back.png"
+    }
+  },
+  {
+    "no": "1-2-014",
+    "name": "님피아",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 216,
+    "images": {
+      "thumb": "/tags/1-2-014-thumb.png",
+      "front": "/tags/1-2-014-front.png",
+      "back": "/tags/1-2-014-back.png"
+    }
+  },
+  {
+    "no": "1-2-015",
+    "name": "루카리오",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 217,
+    "images": {
+      "thumb": "/tags/1-2-015-thumb.png",
+      "front": "/tags/1-2-015-front.png",
+      "back": "/tags/1-2-015-back.png"
+    }
+  },
+  {
+    "no": "1-2-016",
+    "name": "토대부기",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 218,
+    "images": {
+      "thumb": "/tags/1-2-016-thumb.png",
+      "front": "/tags/1-2-016-front.png",
+      "back": "/tags/1-2-016-back.png"
+    }
+  },
+  {
+    "no": "1-2-017",
+    "name": "초염몽",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 219,
+    "images": {
+      "thumb": "/tags/1-2-017-thumb.png",
+      "front": "/tags/1-2-017-front.png",
+      "back": "/tags/1-2-017-back.png"
+    }
+  },
+  {
+    "no": "1-2-018",
+    "name": "엠페르트",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 220,
+    "images": {
+      "thumb": "/tags/1-2-018-thumb.png",
+      "front": "/tags/1-2-018-front.png",
+      "back": "/tags/1-2-018-back.png"
+    }
+  },
+  {
+    "no": "1-2-019",
+    "name": "알로라 나인테일",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 221,
+    "images": {
+      "thumb": "/tags/1-2-019-thumb.png",
+      "front": "/tags/1-2-019-front.png",
+      "back": "/tags/1-2-019-back.png"
+    }
+  },
+  {
+    "no": "1-2-020",
+    "name": "마기라스",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 222,
+    "images": {
+      "thumb": "/tags/1-2-020-thumb.png",
+      "front": "/tags/1-2-020-front.png",
+      "back": "/tags/1-2-020-back.png"
+    }
+  },
+  {
+    "no": "1-2-021",
+    "name": "메타그로스",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 223,
+    "images": {
+      "thumb": "/tags/1-2-021-thumb.png",
+      "front": "/tags/1-2-021-front.png",
+      "back": "/tags/1-2-021-back.png"
+    }
+  },
+  {
+    "no": "1-2-022",
+    "name": "애프룡",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 224,
+    "images": {
+      "thumb": "/tags/1-2-022-thumb.png",
+      "front": "/tags/1-2-022-front.png",
+      "back": "/tags/1-2-022-back.png"
+    }
+  },
+  {
+    "no": "1-2-023",
+    "name": "단지래플",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 225,
+    "images": {
+      "thumb": "/tags/1-2-023-thumb.png",
+      "front": "/tags/1-2-023-front.png",
+      "back": "/tags/1-2-023-back.png"
+    }
+  },
+  {
+    "no": "1-2-024",
+    "name": "마휘핑",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 226,
+    "images": {
+      "thumb": "/tags/1-2-024-thumb.png",
+      "front": "/tags/1-2-024-front.png",
+      "back": "/tags/1-2-024-back.png"
+    }
+  },
+  {
+    "no": "1-2-025",
+    "name": "갈가부기",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 5,
+    "rarityLabel": "스타 ★5",
+    "sourceIdx": 227,
+    "images": {
+      "thumb": "/tags/1-2-025-thumb.png",
+      "front": "/tags/1-2-025-front.png",
+      "back": "/tags/1-2-025-back.png"
+    }
+  },
+  {
+    "no": "1-2-026",
+    "name": "마스카나",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 228,
+    "images": {
+      "thumb": "/tags/1-2-026-thumb.png",
+      "front": "/tags/1-2-026-front.png",
+      "back": "/tags/1-2-026-back.png"
+    }
+  },
+  {
+    "no": "1-2-027",
+    "name": "라우드본",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 229,
+    "images": {
+      "thumb": "/tags/1-2-027-thumb.png",
+      "front": "/tags/1-2-027-front.png",
+      "back": "/tags/1-2-027-back.png"
+    }
+  },
+  {
+    "no": "1-2-028",
+    "name": "웨이니발",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 230,
+    "images": {
+      "thumb": "/tags/1-2-028-thumb.png",
+      "front": "/tags/1-2-028-front.png",
+      "back": "/tags/1-2-028-back.png"
+    }
+  },
+  {
+    "no": "1-2-034",
+    "name": "토대부기",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 231,
+    "images": {
+      "thumb": "/tags/1-2-034-thumb.png",
+      "front": "/tags/1-2-034-front.png",
+      "back": "/tags/1-2-034-back.png"
+    }
+  },
+  {
+    "no": "1-2-037",
+    "name": "초염몽",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 232,
+    "images": {
+      "thumb": "/tags/1-2-037-thumb.png",
+      "front": "/tags/1-2-037-front.png",
+      "back": "/tags/1-2-037-back.png"
+    }
+  },
+  {
+    "no": "1-2-040",
+    "name": "엠페르트",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 233,
+    "images": {
+      "thumb": "/tags/1-2-040-thumb.png",
+      "front": "/tags/1-2-040-front.png",
+      "back": "/tags/1-2-040-back.png"
+    }
+  },
+  {
+    "no": "1-2-041",
+    "name": "샤미드",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 234,
+    "images": {
+      "thumb": "/tags/1-2-041-thumb.png",
+      "front": "/tags/1-2-041-front.png",
+      "back": "/tags/1-2-041-back.png"
+    }
+  },
+  {
+    "no": "1-2-042",
+    "name": "부스터",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 235,
+    "images": {
+      "thumb": "/tags/1-2-042-thumb.png",
+      "front": "/tags/1-2-042-front.png",
+      "back": "/tags/1-2-042-back.png"
+    }
+  },
+  {
+    "no": "1-2-043",
+    "name": "블래키",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 236,
+    "images": {
+      "thumb": "/tags/1-2-043-thumb.png",
+      "front": "/tags/1-2-043-front.png",
+      "back": "/tags/1-2-043-back.png"
+    }
+  },
+  {
+    "no": "1-2-044",
+    "name": "글레이시아",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 237,
+    "images": {
+      "thumb": "/tags/1-2-044-thumb.png",
+      "front": "/tags/1-2-044-front.png",
+      "back": "/tags/1-2-044-back.png"
+    }
+  },
+  {
+    "no": "1-2-046",
+    "name": "펄스멍",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 238,
+    "images": {
+      "thumb": "/tags/1-2-046-thumb.png",
+      "front": "/tags/1-2-046-front.png",
+      "back": "/tags/1-2-046-back.png"
+    }
+  },
+  {
+    "no": "1-2-049",
+    "name": "피죤투",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 239,
+    "images": {
+      "thumb": "/tags/1-2-049-thumb.png",
+      "front": "/tags/1-2-049-front.png",
+      "back": "/tags/1-2-049-back.png"
+    }
+  },
+  {
+    "no": "1-2-051",
+    "name": "알로라 고지",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 240,
+    "images": {
+      "thumb": "/tags/1-2-051-thumb.png",
+      "front": "/tags/1-2-051-front.png",
+      "back": "/tags/1-2-051-back.png"
+    }
+  },
+  {
+    "no": "1-2-056",
+    "name": "플라이곤",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 241,
+    "images": {
+      "thumb": "/tags/1-2-056-thumb.png",
+      "front": "/tags/1-2-056-front.png",
+      "back": "/tags/1-2-056-back.png"
+    }
+  },
+  {
+    "no": "1-2-062",
+    "name": "후딘",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 242,
+    "images": {
+      "thumb": "/tags/1-2-062-thumb.png",
+      "front": "/tags/1-2-062-front.png",
+      "back": "/tags/1-2-062-back.png"
+    }
+  },
+  {
+    "no": "1-2-064",
+    "name": "둥실라이드",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 243,
+    "images": {
+      "thumb": "/tags/1-2-064-thumb.png",
+      "front": "/tags/1-2-064-front.png",
+      "back": "/tags/1-2-064-back.png"
+    }
+  },
+  {
+    "no": "1-2-069",
+    "name": "가디안",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 4,
+    "rarityLabel": "★4",
+    "sourceIdx": 244,
+    "images": {
+      "thumb": "/tags/1-2-069-thumb.png",
+      "front": "/tags/1-2-069-front.png",
+      "back": "/tags/1-2-069-back.png"
+    }
+  },
+  {
+    "no": "1-2-033",
+    "name": "수풀부기",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 245,
+    "images": {
+      "thumb": "/tags/1-2-033-thumb.png",
+      "front": "/tags/1-2-033-front.png",
+      "back": "/tags/1-2-033-back.png"
+    }
+  },
+  {
+    "no": "1-2-036",
+    "name": "파이숭이",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 246,
+    "images": {
+      "thumb": "/tags/1-2-036-thumb.png",
+      "front": "/tags/1-2-036-front.png",
+      "back": "/tags/1-2-036-back.png"
+    }
+  },
+  {
+    "no": "1-2-039",
+    "name": "팽태자",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 247,
+    "images": {
+      "thumb": "/tags/1-2-039-thumb.png",
+      "front": "/tags/1-2-039-front.png",
+      "back": "/tags/1-2-039-back.png"
+    }
+  },
+  {
+    "no": "1-2-048",
+    "name": "피죤",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 248,
+    "images": {
+      "thumb": "/tags/1-2-048-thumb.png",
+      "front": "/tags/1-2-048-front.png",
+      "back": "/tags/1-2-048-back.png"
+    }
+  },
+  {
+    "no": "1-2-053",
+    "name": "동탁군",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 249,
+    "images": {
+      "thumb": "/tags/1-2-053-thumb.png",
+      "front": "/tags/1-2-053-front.png",
+      "back": "/tags/1-2-053-back.png"
+    }
+  },
+  {
+    "no": "1-2-055",
+    "name": "비브라바",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 250,
+    "images": {
+      "thumb": "/tags/1-2-055-thumb.png",
+      "front": "/tags/1-2-055-front.png",
+      "back": "/tags/1-2-055-back.png"
+    }
+  },
+  {
+    "no": "1-2-058",
+    "name": "패리퍼",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 251,
+    "images": {
+      "thumb": "/tags/1-2-058-thumb.png",
+      "front": "/tags/1-2-058-front.png",
+      "back": "/tags/1-2-058-back.png"
+    }
+  },
+  {
+    "no": "1-2-059",
+    "name": "루주라",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 252,
+    "images": {
+      "thumb": "/tags/1-2-059-thumb.png",
+      "front": "/tags/1-2-059-front.png",
+      "back": "/tags/1-2-059-back.png"
+    }
+  },
+  {
+    "no": "1-2-061",
+    "name": "윤겔라",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 253,
+    "images": {
+      "thumb": "/tags/1-2-061-thumb.png",
+      "front": "/tags/1-2-061-front.png",
+      "back": "/tags/1-2-061-back.png"
+    }
+  },
+  {
+    "no": "1-2-063",
+    "name": "흔들풍손",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 254,
+    "images": {
+      "thumb": "/tags/1-2-063-thumb.png",
+      "front": "/tags/1-2-063-front.png",
+      "back": "/tags/1-2-063-back.png"
+    }
+  },
+  {
+    "no": "1-2-065",
+    "name": "시마사리",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 255,
+    "images": {
+      "thumb": "/tags/1-2-065-thumb.png",
+      "front": "/tags/1-2-065-front.png",
+      "back": "/tags/1-2-065-back.png"
+    }
+  },
+  {
+    "no": "1-2-066",
+    "name": "토게데마루",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 256,
+    "images": {
+      "thumb": "/tags/1-2-066-thumb.png",
+      "front": "/tags/1-2-066-front.png",
+      "back": "/tags/1-2-066-back.png"
+    }
+  },
+  {
+    "no": "1-2-068",
+    "name": "킬리아",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 257,
+    "images": {
+      "thumb": "/tags/1-2-068-thumb.png",
+      "front": "/tags/1-2-068-front.png",
+      "back": "/tags/1-2-068-back.png"
+    }
+  },
+  {
+    "no": "1-2-070",
+    "name": "롱스톤",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 3,
+    "rarityLabel": "★3",
+    "sourceIdx": 258,
+    "images": {
+      "thumb": "/tags/1-2-070-thumb.png",
+      "front": "/tags/1-2-070-front.png",
+      "back": "/tags/1-2-070-back.png"
+    }
+  },
+  {
+    "no": "1-2-029",
+    "name": "카르본",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 259,
+    "images": {
+      "thumb": "/tags/1-2-029-thumb.png",
+      "front": "/tags/1-2-029-front.png",
+      "back": "/tags/1-2-029-back.png"
+    }
+  },
+  {
+    "no": "1-2-030",
+    "name": "드니차",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 260,
+    "images": {
+      "thumb": "/tags/1-2-030-thumb.png",
+      "front": "/tags/1-2-030-front.png",
+      "back": "/tags/1-2-030-back.png"
+    }
+  },
+  {
+    "no": "1-2-031",
+    "name": "빠모",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 261,
+    "images": {
+      "thumb": "/tags/1-2-031-thumb.png",
+      "front": "/tags/1-2-031-front.png",
+      "back": "/tags/1-2-031-back.png"
+    }
+  },
+  {
+    "no": "1-2-032",
+    "name": "모부기",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 262,
+    "images": {
+      "thumb": "/tags/1-2-032-thumb.png",
+      "front": "/tags/1-2-032-front.png",
+      "back": "/tags/1-2-032-back.png"
+    }
+  },
+  {
+    "no": "1-2-035",
+    "name": "불꽃숭이",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 263,
+    "images": {
+      "thumb": "/tags/1-2-035-thumb.png",
+      "front": "/tags/1-2-035-front.png",
+      "back": "/tags/1-2-035-back.png"
+    }
+  },
+  {
+    "no": "1-2-038",
+    "name": "팽도리",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 264,
+    "images": {
+      "thumb": "/tags/1-2-038-thumb.png",
+      "front": "/tags/1-2-038-front.png",
+      "back": "/tags/1-2-038-back.png"
+    }
+  },
+  {
+    "no": "1-2-045",
+    "name": "멍파치",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 265,
+    "images": {
+      "thumb": "/tags/1-2-045-thumb.png",
+      "front": "/tags/1-2-045-front.png",
+      "back": "/tags/1-2-045-back.png"
+    }
+  },
+  {
+    "no": "1-2-047",
+    "name": "구구",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 266,
+    "images": {
+      "thumb": "/tags/1-2-047-thumb.png",
+      "front": "/tags/1-2-047-front.png",
+      "back": "/tags/1-2-047-back.png"
+    }
+  },
+  {
+    "no": "1-2-050",
+    "name": "알로라 모래두지",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 267,
+    "images": {
+      "thumb": "/tags/1-2-050-thumb.png",
+      "front": "/tags/1-2-050-front.png",
+      "back": "/tags/1-2-050-back.png"
+    }
+  },
+  {
+    "no": "1-2-052",
+    "name": "동미러",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 268,
+    "images": {
+      "thumb": "/tags/1-2-052-thumb.png",
+      "front": "/tags/1-2-052-front.png",
+      "back": "/tags/1-2-052-back.png"
+    }
+  },
+  {
+    "no": "1-2-054",
+    "name": "톱치",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 269,
+    "images": {
+      "thumb": "/tags/1-2-054-thumb.png",
+      "front": "/tags/1-2-054-front.png",
+      "back": "/tags/1-2-054-back.png"
+    }
+  },
+  {
+    "no": "1-2-057",
+    "name": "갈모매",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 270,
+    "images": {
+      "thumb": "/tags/1-2-057-thumb.png",
+      "front": "/tags/1-2-057-front.png",
+      "back": "/tags/1-2-057-back.png"
+    }
+  },
+  {
+    "no": "1-2-060",
+    "name": "캐이시",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 271,
+    "images": {
+      "thumb": "/tags/1-2-060-thumb.png",
+      "front": "/tags/1-2-060-front.png",
+      "back": "/tags/1-2-060-back.png"
+    }
+  },
+  {
+    "no": "1-2-067",
+    "name": "랄토스",
+    "stage": 2,
+    "stageLabel": "스타태그 스타더스트 2탄",
+    "rarity": 2,
+    "rarityLabel": "★2",
+    "sourceIdx": 272,
+    "images": {
+      "thumb": "/tags/1-2-067-thumb.png",
+      "front": "/tags/1-2-067-front.png",
+      "back": "/tags/1-2-067-back.png"
+    }
+  }
+]
