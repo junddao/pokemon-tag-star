@@ -14,13 +14,15 @@ export default function TagCard({ tag }: { tag: TagWithScore }) {
       className={`group flex flex-col overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] ring-1 ring-inset ${theme.ring} transition hover:-translate-y-0.5 hover:bg-white/[0.08] ${theme.glow}`}
     >
       <div className="relative w-full bg-black/30" style={{ aspectRatio: '300 / 169' }}>
-        <Image
-          src={tag.images.thumb}
-          alt={tag.name}
-          fill
-          sizes="(max-width: 640px) 45vw, 200px"
-          className="object-contain transition duration-300 group-hover:scale-[1.04]"
-        />
+        <div className="absolute inset-[7%]">
+          <Image
+            src={tag.images.thumb}
+            alt={tag.name}
+            fill
+            sizes="(max-width: 640px) 45vw, 200px"
+            className="object-contain transition duration-300 group-hover:scale-[1.04]"
+          />
+        </div>
       </div>
       <div className="flex flex-1 flex-col gap-1 p-2.5">
         <div className="flex items-center justify-between gap-1">

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Place, PriceStat, Tag, TagScore } from './types.ts';
+import { asset } from './site.ts';
 
 export interface Meta {
   updatedAt: string;
@@ -46,11 +47,28 @@ export interface TagWithScore extends Tag {
   score: TagScore;
 }
 
+/**
+ * JSON 안의 이미지 경로는 basePath 를 모른다. 그 파일은 공개 API 로도 쓰이므로
+ * 배포 위치에 오염되면 안 되기 때문이다. 화면에 넘길 때만 여기서 붙인다.
+ *
+ * next/image 는 unoptimized 모드에서 src 에 basePath 를 붙여주지 않는다.
+ * 이 변환이 없으면 하위 경로 배포에서 태그 이미지가 전부 404 가 된다.
+ */
+function withBasePath(images: Tag['images']): Tag['images'] {
+  const prefix = (src: string | null) => (src?.startsWith('/') ? asset(src) : src);
+  return {
+    thumb: prefix(images.thumb) as string,
+    front: prefix(images.front),
+    back: prefix(images.back),
+  };
+}
+
 /** 화면에서 거의 항상 태그와 점수를 함께 쓰므로 미리 붙여둔다. */
 export function getTagsWithScores(): TagWithScore[] {
   const scores = new Map(getScores().map((s) => [s.no, s]));
   return getTags().map((tag) => ({
     ...tag,
+    images: withBasePath(tag.images),
     score: scores.get(tag.no) ?? {
       no: tag.no, tp: 0, confidence: 'estimated' as const, priceKrw: null, samples: 0,
     },

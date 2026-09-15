@@ -2,8 +2,11 @@ import type { Metadata, Viewport } from 'next';
 import Link from 'next/link';
 import './globals.css';
 import { formatUpdatedAt, getMeta } from '@/lib/data';
+import { CANONICAL } from '@/lib/site';
 
 export const metadata: Metadata = {
+  metadataBase: new URL(CANONICAL || 'http://localhost:3000'),
+  alternates: { canonical: '/' },
   title: {
     default: '포켓몬 태그스타 도감 · 시세 · 트레이드 계산기',
     template: '%s | 태그스타 도감',

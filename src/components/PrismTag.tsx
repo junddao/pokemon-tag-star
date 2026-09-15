@@ -166,14 +166,18 @@ export default function PrismTag({ front, back, alt, priority }: Props) {
 function Face({ src, alt, priority }: { src: string; alt: string; priority?: boolean }) {
   return (
     <div className="prism-face h-full w-full bg-[#0c0a1a] ring-1 ring-white/15">
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        priority={priority}
-        sizes="(max-width: 640px) 92vw, 520px"
-        className="object-contain"
-      />
+      {/* fill 이미지는 부모의 패딩 박스를 기준으로 잡히므로 padding 으로는 안쪽으로 못 민다.
+          여백을 주려면 이렇게 안쪽 상자를 따로 둬야 한다. */}
+      <div className="absolute inset-[7%]">
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          priority={priority}
+          sizes="(max-width: 640px) 92vw, 520px"
+          className="object-contain"
+        />
+      </div>
       <div className="prism-pattern" />
       <div className="prism-glare" />
     </div>
