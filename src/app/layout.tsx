@@ -74,6 +74,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {meta.updatedAt && <> · 마지막 갱신 {formatUpdatedAt(meta.updatedAt)}</>}
           </p>
           <p className="mt-1">시세는 중고 거래 매물을 모아 추정한 참고값이며, 실제 거래가를 보장하지 않습니다.</p>
+          <p className="mt-2">
+            <Link href="/privacy" className="underline hover:text-violet-200">
+              개인정보처리방침
+            </Link>
+          </p>
         </footer>
       </body>
     </html>

@@ -2,9 +2,10 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import RarityChip from './RarityChip';
 import TagPicker from './TagPicker';
+import { tradeEvaluated, tradeSignature } from '@/lib/analytics';
 import type { TagWithScore } from '@/lib/data';
 import { useOwned, useTrade, type Basket, type Side } from '@/lib/store';
 import { evaluateTrade, suggestAdditions, sumTp, type TradeEntry, type Verdict } from '@/lib/trade';
@@ -52,6 +53,19 @@ export default function TradeCalculator({ tags }: { tags: TagWithScore[] }) {
     }
     return entries;
   }, [owned, trade.mine, byNo]);
+
+  // 담을 때마다 다시 계산되므로, 구성이 실제로 바뀐 순간에만 한 번 남긴다
+  const signature = tradeSignature({ mine: trade.mine, theirs: trade.theirs, verdict: result.verdict });
+  const lastLogged = useRef<string | null>(null);
+  const countOf = (entries: TradeEntry[]) => entries.reduce((n, e) => n + e.qty, 0);
+  const mineCount = countOf(mine);
+  const theirsCount = countOf(theirs);
+
+  useEffect(() => {
+    if (!signature || signature === lastLogged.current) return;
+    lastLogged.current = signature;
+    tradeEvaluated({ mineCount, theirsCount, verdict: result.verdict });
+  }, [signature, mineCount, theirsCount, result.verdict]);
 
   const deficit = Math.max(0, Math.round((result.theirTp - result.myTp) * 10) / 10);
   const suggestion = deficit > 0 ? suggestAdditions(pool, deficit) : [];

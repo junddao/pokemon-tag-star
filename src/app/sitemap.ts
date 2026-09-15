@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${CANONICAL}/dex/`, lastModified, priority: 0.9 },
     { url: `${CANONICAL}/trade/`, lastModified, priority: 0.8 },
     { url: `${CANONICAL}/map/`, lastModified, priority: 0.7 },
+    { url: `${CANONICAL}/privacy/`, lastModified, priority: 0.1 },
   ];
 
   // 검색 유입의 핵심은 태그 낱개 페이지다. 전부 넣는다.

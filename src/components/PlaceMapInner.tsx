@@ -5,6 +5,7 @@ import 'leaflet.markercluster/dist/MarkerCluster.css';
 import L from 'leaflet';
 import 'leaflet.markercluster';
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { locateRequested } from '@/lib/analytics';
 import { formatDistance, nearest, type PlaceWithDistance } from '@/lib/geo';
 import type { Place } from '@/lib/types';
 
@@ -98,14 +99,21 @@ export default function PlaceMapInner({ places }: { places: Place[] }) {
   }, [me]);
 
   const locate = () => {
-    if (!('geolocation' in navigator)) return setStatus('denied');
+    if (!('geolocation' in navigator)) {
+      locateRequested('unsupported');
+      return setStatus('denied');
+    }
     setStatus('locating');
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         setMe({ lat: pos.coords.latitude, lng: pos.coords.longitude });
         setStatus('ready');
+        locateRequested('ready');
       },
-      () => setStatus('denied'),
+      () => {
+        setStatus('denied');
+        locateRequested('denied');
+      },
       { enableHighAccuracy: true, timeout: 8000, maximumAge: 60_000 },
     );
   };

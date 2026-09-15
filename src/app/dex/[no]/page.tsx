@@ -5,6 +5,7 @@ import PrismTag from '@/components/PrismTag';
 import RarityChip from '@/components/RarityChip';
 import TagCard from '@/components/TagCard';
 import AddToTrade from '@/components/AddToTrade';
+import TrackTagView from '@/components/TrackTagView';
 import { formatKrw, getPrices, getTagsWithScores } from '@/lib/data';
 import { RARITY_THEME } from '@/lib/theme';
 
@@ -63,6 +64,7 @@ export default async function TagDetailPage({ params }: { params: Promise<{ no: 
 
   return (
     <article>
+      <TrackTagView no={tag.no} rarity={tag.rarity} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <nav className="mb-5 text-xs text-violet-200/50">

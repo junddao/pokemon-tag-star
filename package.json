@@ -11,6 +11,7 @@
     "scrape": "node scripts/scrape.ts"
   },
   "dependencies": {
+    "firebase": "^12.19.0",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "next": "16.3.5",
