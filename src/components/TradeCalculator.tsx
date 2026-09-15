@@ -205,14 +205,16 @@ function SidePanel({
               </span>
             </span>
             <span className="flex shrink-0 items-center gap-0.5">
-              <Step label="빼기" onClick={() => onDelta(side, e.tag.no, -1)}>−</Step>
-              <span className="w-5 text-center text-xs font-bold tabular-nums">{e.qty}</span>
-              <Step label="더하기" onClick={() => onDelta(side, e.tag.no, 1)}>+</Step>
+              <Step label={`${e.tag.name} 한 장 빼기`} onClick={() => onDelta(side, e.tag.no, -1)}>−</Step>
+              <span className="w-6 text-center text-xs font-bold tabular-nums sm:w-5">{e.qty}</span>
+              <Step label={`${e.tag.name} 한 장 더하기`} onClick={() => onDelta(side, e.tag.no, 1)}>+</Step>
+              {/* 좁은 화면에서는 ✕ 자리를 +/− 터치 영역에 내준다.
+                  수량 1 에서 − 를 누르면 목록에서 빠지므로 지우는 방법이 사라지지는 않는다. */}
               <button
                 type="button"
-                aria-label="빼기"
+                aria-label={`${e.tag.name} 전부 빼기`}
                 onClick={() => onRemove(side, e.tag.no)}
-                className="ml-0.5 rounded px-1 text-[11px] text-violet-200/35 hover:text-rose-300"
+                className="ml-0.5 hidden rounded px-1 text-[11px] text-violet-200/35 hover:text-rose-300 sm:block"
               >
                 ✕
               </button>
@@ -238,7 +240,7 @@ function Step({ children, onClick, label }: { children: React.ReactNode; onClick
       type="button"
       aria-label={label}
       onClick={onClick}
-      className="grid h-6 w-6 place-items-center rounded-md bg-white/10 text-sm font-bold text-violet-100 transition hover:bg-white/20 active:scale-90"
+      className="grid h-11 w-11 place-items-center rounded-md bg-white/10 text-base font-bold text-violet-100 transition hover:bg-white/20 active:scale-90 sm:h-6 sm:w-6 sm:text-sm"
     >
       {children}
     </button>

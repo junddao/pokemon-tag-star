@@ -129,7 +129,7 @@ export default function PlaceMapInner({ places }: { places: Place[] }) {
           <select
             value={region}
             onChange={(e) => setRegion(e.target.value)}
-            className="rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-xs font-semibold text-white outline-none"
+            className="rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-base font-semibold sm:text-xs text-white outline-none"
           >
             {regions.map((r) => <option key={r} value={r} className="bg-[#0c0a1a]">{r}</option>)}
           </select>

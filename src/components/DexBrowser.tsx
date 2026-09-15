@@ -62,7 +62,7 @@ export default function DexBrowser({ tags, stages }: { tags: TagWithScore[]; sta
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="포켓몬 이름 또는 번호"
-            className="ml-auto w-full min-w-0 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-sm text-white placeholder:text-violet-200/35 outline-none focus:border-violet-300/50 sm:w-56"
+            className="ml-auto w-full min-w-0 rounded-xl border border-white/10 bg-white/5 px-3 py-2 text-base text-white sm:text-sm placeholder:text-violet-200/35 outline-none focus:border-violet-300/50 sm:w-56"
           />
         </div>
 

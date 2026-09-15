@@ -17,7 +17,9 @@ export default function TagPicker({
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    inputRef.current?.focus();
+    // 바텀시트가 열리자마자 키보드가 올라오면 목록 절반이 가려진다.
+    // 물리 키보드로 바로 타이핑할 수 있는 환경에서만 포커스한다.
+    if (window.matchMedia('(pointer: fine)').matches) inputRef.current?.focus();
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose();
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -48,7 +50,7 @@ export default function TagPicker({
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="포켓몬 이름 또는 번호"
-            className="min-w-0 flex-1 rounded-xl border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white placeholder:text-violet-200/35 outline-none focus:border-violet-300/50"
+            className="min-w-0 flex-1 rounded-xl border border-white/10 bg-white/5 px-3 py-2.5 text-base text-white sm:text-sm placeholder:text-violet-200/35 outline-none focus:border-violet-300/50"
           />
           <button
             type="button"
