@@ -20,6 +20,8 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ko_KR',
   },
+  // Search Console 소유권 확인. vercel.app 하위 도메인은 DNS 확인이 불가해 메타 태그로 받는다.
+  verification: { google: 'ZRrlSYLrdvvmTATzXxCxWFmF_XYMpBFOHqsIGrtfEj4' },
 };
 
 export const viewport: Viewport = {
