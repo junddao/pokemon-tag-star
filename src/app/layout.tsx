@@ -2,10 +2,12 @@ import type { Metadata, Viewport } from 'next';
 import Link from 'next/link';
 import './globals.css';
 import { formatUpdatedAt, getMeta } from '@/lib/data';
-import { CANONICAL } from '@/lib/site';
+import { CANONICAL, asset } from '@/lib/site';
 
 export const metadata: Metadata = {
   metadataBase: new URL(CANONICAL || 'http://localhost:3000'),
+  appleWebApp: { capable: true, title: '태그스타', statusBarStyle: 'black-translucent' },
+  icons: { apple: asset('/icons/apple-touch-icon.png') },
   alternates: { canonical: '/' },
   title: {
     default: '포켓몬 태그스타 도감 · 시세 · 트레이드 계산기',
@@ -31,6 +33,7 @@ export const viewport: Viewport = {
 const NAV = [
   { href: '/dex', label: '도감' },
   { href: '/trade', label: '트레이드' },
+  { href: '/boss', label: '보스 공략' },
   { href: '/map', label: '내 주변' },
 ];
 

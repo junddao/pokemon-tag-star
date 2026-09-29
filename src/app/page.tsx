@@ -1,10 +1,12 @@
 import Link from 'next/link';
 import TagCard from '@/components/TagCard';
+import InstallApp from '@/components/InstallApp';
 import { getMeta, getTagsWithScores } from '@/lib/data';
 
 const SHORTCUTS = [
   { href: '/dex', emoji: '📖', title: '도감', desc: '등급별 전체 태그와 시세' },
   { href: '/trade', emoji: '⚖️', title: '트레이드 계산기', desc: '누가 손해인지 바로 판정' },
+  { href: '/boss', emoji: '⚔️', title: '보스 공략', desc: '상성 좋은 포켓몬 3마리 추천' },
   { href: '/map', emoji: '📍', title: '내 주변 매장', desc: '가까운 게임기 찾기' },
 ];
 
@@ -33,9 +35,10 @@ export default function HomePage() {
           포켓몬 태그스타 태그 {meta.counts.tags}개의 등급과 중고 시세를 모았어요.
           교환하기 전에 손해인지 이득인지 먼저 확인해보세요.
         </p>
+        <InstallApp />
       </section>
 
-      <section className="grid gap-3 sm:grid-cols-3">
+      <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {SHORTCUTS.map((s) => (
           <Link
             key={s.href}
