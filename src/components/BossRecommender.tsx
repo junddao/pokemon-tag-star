@@ -4,20 +4,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
 import type { TagWithScore } from '@/lib/data';
-import { recommendAgainstBoss, topThree, type Recommendation } from '@/lib/boss-recommendations';
+import Segmented from './Segmented';
+import { bossOptions, recommendAgainstBoss, topThree, type Recommendation } from '@/lib/boss-recommendations';
 import { SPECIES_TYPES } from '@/lib/pokemon-types';
 import { useOwned } from '@/lib/store';
 
-export default function BossRecommender({ tags }: { tags: TagWithScore[] }) {
-  const bosses = useMemo(() => {
-    const seen = new Set<string>();
-    return tags.filter((tag) => {
-      if (tag.rarity < 5 || seen.has(tag.name) || !SPECIES_TYPES[tag.name]) return false;
-      seen.add(tag.name);
-      return true;
-    });
-  }, [tags]);
-  const [bossName, setBossName] = useState(bosses[0]?.name ?? '');
+export default function BossRecommender({ tags, stages }: { tags: TagWithScore[]; stages: number[] }) {
+  const [stage, setStage] = useState<number | 'all'>(stages[stages.length - 1] ?? 'all');
+  const [picked, setPicked] = useState('');
+  const bosses = useMemo(() => bossOptions(tags, stage), [tags, stage]);
+  // 탄을 바꾸면 고른 보스가 목록에서 사라질 수 있다. 상태를 되돌리는 대신 매번 유효한 값을 고른다.
+  const bossName = bosses.some((boss) => boss.name === picked) ? picked : (bosses[0]?.name ?? '');
   const { owned } = useOwned();
   const recommendations = useMemo(() => recommendAgainstBoss(tags, bossName, owned), [tags, bossName, owned]);
   const top = useMemo(() => topThree(recommendations), [recommendations]);
@@ -32,14 +29,19 @@ export default function BossRecommender({ tags }: { tags: TagWithScore[] }) {
       </header>
 
       <section className="rounded-2xl border border-violet-300/20 bg-violet-400/[0.07] p-5">
-        <label htmlFor="boss-pokemon" className="block text-sm font-bold text-violet-100">상대할 보스</label>
+        <Segmented
+          options={[{ key: 'all' as const, label: '전체' }, ...stages.map((s) => ({ key: s, label: `${s}탄` }))]}
+          value={stage}
+          onChange={setStage}
+        />
+        <label htmlFor="boss-pokemon" className="mt-4 block text-sm font-bold text-violet-100">상대할 보스</label>
         <select
           id="boss-pokemon"
           value={bossName}
-          onChange={(event) => setBossName(event.target.value)}
+          onChange={(event) => setPicked(event.target.value)}
           className="mt-3 w-full rounded-xl border border-white/15 bg-[#181326] px-3 py-3 text-base text-white outline-none focus:border-violet-300 sm:max-w-sm"
         >
-          {bosses.map((boss) => <option key={boss.name} value={boss.name}>{boss.name} · {boss.rarityLabel}</option>)}
+          {bosses.map((boss) => <option key={boss.no} value={boss.name}>{boss.name} · {boss.rarityLabel}</option>)}
         </select>
         <p className="mt-3 text-xs text-violet-200/65">{bossName} 타입: <strong className="text-violet-100">{bossTypes.join(' / ')}</strong></p>
       </section>

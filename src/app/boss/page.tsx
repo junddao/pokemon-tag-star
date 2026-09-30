@@ -8,5 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default function BossPage() {
-  return <BossRecommender tags={getTagsWithScores()} />;
+  const tags = getTagsWithScores();
+  const stages = [...new Set(tags.map((t) => t.stage))].sort((a, b) => a - b);
+  return <BossRecommender tags={tags} stages={stages} />;
 }
