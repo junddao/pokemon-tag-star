@@ -33,6 +33,7 @@ export const viewport: Viewport = {
 const NAV = [
   { href: '/dex', label: '도감' },
   { href: '/trade', label: '트레이드' },
+  { href: '/play', label: '배틀' },
   { href: '/boss', label: '보스 공략' },
   { href: '/map', label: '내 주변' },
 ];
@@ -51,12 +52,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </span>
               <span className="hidden text-base sm:inline">태그스타 도감</span>
             </Link>
-            <nav className="ml-auto flex items-center gap-1 text-sm">
+            {/* 메뉴가 다섯 개라 좁은 화면에서 글자가 줄바꿈된다. 줄바꿈 대신 가로로 흐르게 둔다. */}
+            <nav className="ml-auto flex items-center gap-0.5 overflow-x-auto text-sm [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
               {NAV.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="rounded-lg px-3 py-2 font-semibold text-violet-100/80 transition hover:bg-white/10 hover:text-white"
+                  className="shrink-0 whitespace-nowrap rounded-lg px-2.5 py-2 font-semibold text-violet-100/80 transition hover:bg-white/10 hover:text-white"
                 >
                   {item.label}
                 </Link>

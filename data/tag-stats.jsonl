@@ -1,0 +1,143 @@
+{"no": "1-1-001", "name": "뮤츠", "energy": 158, "hp": 172, "atk": 119, "def": 98, "spa": 165, "spd": 98, "spe": 140, "move": "사이코브레이크"}
+{"no": "1-1-002", "name": "뮤", "energy": 142, "hp": 166, "atk": 109, "def": 109, "spa": 109, "spd": 109, "spe": 109, "move": "사이코키네시스"}
+{"no": "1-1-003", "name": "자시안", "energy": 162, "hp": 152, "atk": 175, "def": 120, "spa": 85, "spd": 120, "spe": 153, "move": "거수참"}
+{"no": "1-1-004", "name": "자마젠타", "energy": 162, "hp": 152, "atk": 135, "def": 150, "spa": 85, "spd": 150, "spe": 133, "move": "거수탄"}
+{"no": "1-1-005", "name": "마기라스", "energy": 144, "hp": 169, "atk": 147, "def": 121, "spa": 105, "spd": 111, "spe": 69, "move": "스톤에지", "gimmick": {"kind": "dynamax", "move": "다이록"}}
+{"no": "1-1-006", "name": "메타그로스", "energy": 144, "hp": 147, "atk": 148, "def": 142, "spa": 105, "spd": 100, "spe": 79, "move": "코멧펀치", "gimmick": {"kind": "dynamax", "move": "다이스틸"}}
+{"no": "1-1-007", "name": "미라이돈", "energy": 162, "hp": 172, "atk": 96, "def": 113, "spa": 150, "spd": 129, "spe": 150, "move": "라이트닝드라이브"}
+{"no": "1-1-008", "name": "이상해꽃", "energy": 122, "hp": 140, "atk": 87, "def": 88, "spa": 105, "spd": 105, "spe": 85, "move": "리프스톰"}
+{"no": "1-1-009", "name": "리자몽", "energy": 124, "hp": 138, "atk": 89, "def": 83, "spa": 114, "spd": 90, "spe": 105, "move": "화염방사"}
+{"no": "1-1-010", "name": "거북왕", "energy": 124, "hp": 139, "atk": 88, "def": 105, "spa": 90, "spd": 110, "spe": 83, "move": "하이드로펌프"}
+{"no": "1-1-011", "name": "샤미드", "energy": 108, "hp": 168, "atk": 62, "def": 57, "spa": 101, "spd": 88, "spe": 62, "move": "하이드로펌프"}
+{"no": "1-1-012", "name": "부스터", "energy": 108, "hp": 111, "atk": 119, "def": 57, "spa": 88, "spd": 101, "spe": 62, "move": "화염방사"}
+{"no": "1-1-013", "name": "블래키", "energy": 112, "hp": 143, "atk": 64, "def": 106, "spa": 60, "spd": 124, "spe": 64, "move": "악의파동"}
+{"no": "1-1-014", "name": "글레이시아", "energy": 114, "hp": 118, "atk": 61, "def": 108, "spa": 127, "spd": 94, "spe": 66, "move": "눈보라"}
+{"no": "1-1-015", "name": "피죤투", "energy": 100, "hp": 127, "atk": 75, "def": 71, "spa": 66, "spd": 66, "spe": 93, "move": "폭풍"}
+{"no": "1-1-016", "name": "팬텀", "energy": 108, "hp": 111, "atk": 64, "def": 60, "spa": 124, "spd": 74, "spe": 106, "move": "섀도볼"}
+{"no": "1-1-017", "name": "윈디", "energy": 114, "hp": 133, "atk": 101, "def": 75, "spa": 93, "spd": 75, "spe": 88, "move": "불대문자", "gimmick": {"kind": "z", "move": "다이내믹풀플레임"}}
+{"no": "1-1-018", "name": "거대코뿌리", "energy": 110, "hp": 155, "atk": 128, "def": 119, "spa": 53, "spd": 53, "spe": 39, "move": "지진", "gimmick": {"kind": "z", "move": "라이징랜드오버"}}
+{"no": "1-1-019", "name": "피카츄", "energy": 96, "hp": 113, "atk": 72, "def": 53, "spa": 66, "spd": 66, "spe": 114, "move": "10만볼트", "gimmick": {"kind": "dynamax", "move": "다이썬더"}}
+{"no": "1-1-020", "name": "플라이곤", "energy": 114, "hp": 132, "atk": 99, "def": 80, "spa": 80, "spd": 80, "spe": 99, "move": "지진", "gimmick": {"kind": "dynamax", "move": "다이어스"}}
+{"no": "1-1-021", "name": "고릴타", "energy": 108, "hp": 142, "atk": 115, "def": 84, "spa": 57, "spd": 66, "spe": 79, "move": "드럼어택"}
+{"no": "1-1-022", "name": "에이스번", "energy": 108, "hp": 124, "atk": 107, "def": 71, "spa": 62, "spd": 71, "spe": 109, "move": "화염볼"}
+{"no": "1-1-023", "name": "인텔리레온", "energy": 108, "hp": 115, "atk": 79, "def": 62, "spa": 115, "spd": 62, "spe": 110, "move": "노려맞히기"}
+{"no": "1-1-024", "name": "가로막구리", "energy": 112, "hp": 141, "atk": 87, "def": 97, "spa": 60, "spd": 79, "spe": 92, "move": "지옥찌르기"}
+{"no": "1-1-025", "name": "케르디오", "energy": 122, "hp": 139, "atk": 71, "def": 87, "spa": 123, "spd": 87, "spe": 104, "move": "성스러운칼"}
+{"no": "1-1-034", "name": "고릴타", "energy": 90, "hp": 118, "atk": 95, "def": 69, "spa": 48, "spd": 55, "spe": 66, "move": "씨기관총"}
+{"no": "1-1-037", "name": "에이스번", "energy": 90, "hp": 103, "atk": 88, "def": 59, "spa": 51, "spd": 59, "spe": 90, "move": "블레이즈킥"}
+{"no": "1-1-040", "name": "인텔리레온", "energy": 90, "hp": 96, "atk": 66, "def": 51, "spa": 95, "spd": 51, "spe": 91, "move": "다이빙"}
+{"no": "1-1-043", "name": "라이츄", "energy": 84, "hp": 89, "atk": 69, "def": 44, "spa": 69, "spd": 62, "spe": 84, "move": "번개"}
+{"no": "1-1-045", "name": "쥬피썬더", "energy": 90, "hp": 92, "atk": 51, "def": 48, "spa": 84, "spd": 73, "spe": 99, "move": "번개"}
+{"no": "1-1-046", "name": "에브이", "energy": 92, "hp": 95, "atk": 53, "def": 49, "spa": 101, "spd": 75, "spe": 86, "move": "환상빔"}
+{"no": "1-1-047", "name": "리피아", "energy": 94, "hp": 97, "atk": 88, "def": 103, "spa": 50, "spd": 54, "spe": 77, "move": "잎날가르기"}
+{"no": "1-1-048", "name": "님피아", "energy": 96, "hp": 123, "atk": 55, "def": 55, "spa": 90, "spd": 106, "spe": 51, "move": "매지컬샤인"}
+{"no": "1-1-050", "name": "포푸니라", "energy": 90, "hp": 98, "atk": 93, "def": 53, "spa": 37, "spd": 67, "spe": 97, "move": "깜짝베기"}
+{"no": "1-1-054", "name": "야도란", "energy": 84, "hp": 114, "atk": 59, "def": 84, "spa": 77, "spd": 62, "spe": 24, "move": "물의파동"}
+{"no": "1-1-056", "name": "만마드", "energy": 90, "hp": 124, "atk": 100, "def": 81, "spa": 46, "spd": 69, "spe": 31, "move": "분함의발구르기"}
+{"no": "1-1-059", "name": "가로막구리", "energy": 90, "hp": 115, "atk": 71, "def": 79, "spa": 49, "spd": 64, "spe": 75, "move": "승부굳히기"}
+{"no": "1-1-062", "name": "투구뿌논", "energy": 88, "hp": 103, "atk": 56, "def": 71, "spa": 113, "spd": 60, "spe": 35, "move": "벌레의야단법석"}
+{"no": "1-1-064", "name": "두트리오", "energy": 82, "hp": 89, "atk": 84, "def": 55, "spa": 48, "spd": 48, "spe": 84, "move": "쪼아대기"}
+{"no": "1-1-066", "name": "백솜모카", "energy": 80, "hp": 89, "atk": 41, "def": 69, "spa": 62, "spd": 92, "spe": 48, "move": "그래스믹서"}
+{"no": "1-1-067", "name": "폭거북스", "energy": 84, "hp": 89, "atk": 61, "def": 102, "spa": 70, "spd": 66, "spe": 30, "move": "불태우기"}
+{"no": "1-1-070", "name": "모스노우", "energy": 86, "hp": 101, "atk": 54, "def": 50, "spa": 100, "spd": 73, "spe": 54, "move": "오로라빔"}
+{"no": "1-1-027", "name": "나로테", "energy": 84, "hp": 103, "atk": 72, "def": 57, "spa": 55, "spd": 57, "spe": 74, "move": "매지컬리프"}
+{"no": "1-1-029", "name": "악뜨거", "energy": 84, "hp": 120, "atk": 51, "def": 70, "spa": 80, "spd": 53, "spe": 46, "move": "불태우기"}
+{"no": "1-1-031", "name": "아꾸왁", "energy": 84, "hp": 110, "atk": 76, "def": 59, "spa": 59, "spd": 55, "spe": 59, "move": "물의파동"}
+{"no": "1-1-033", "name": "채키몽", "energy": 64, "hp": 82, "atk": 56, "def": 47, "spa": 38, "spd": 41, "spe": 53, "move": "잎날가르기"}
+{"no": "1-1-036", "name": "래비풋", "energy": 64, "hp": 79, "atk": 56, "def": 41, "spa": 38, "spd": 41, "spe": 61, "move": "니트로차지"}
+{"no": "1-1-039", "name": "누겔레온", "energy": 64, "hp": 79, "atk": 41, "def": 38, "spa": 62, "spd": 38, "spe": 59, "move": "물의파동"}
+{"no": "1-1-042", "name": "피카츄", "energy": 60, "hp": 71, "atk": 44, "def": 33, "spa": 41, "spd": 41, "spe": 70, "move": "스파크"}
+{"no": "1-1-044", "name": "이브이", "energy": 60, "hp": 85, "atk": 44, "def": 41, "spa": 37, "spd": 51, "spe": 44, "move": "스피드스타"}
+{"no": "1-1-049", "name": "포푸니", "energy": 66, "hp": 75, "atk": 63, "def": 39, "spa": 26, "spd": 51, "spe": 76, "move": "보복"}
+{"no": "1-1-052", "name": "골루그", "energy": 72, "hp": 96, "atk": 81, "def": 54, "spa": 39, "spd": 54, "spe": 39, "move": "섀도펀치"}
+{"no": "1-1-055", "name": "머드나기", "energy": 62, "hp": 86, "atk": 69, "def": 49, "spa": 33, "spd": 40, "spe": 33, "move": "땅고르기"}
+{"no": "1-1-058", "name": "가라르 직구리", "energy": 64, "hp": 89, "atk": 48, "def": 42, "spa": 36, "spd": 42, "spe": 67, "move": "바크아웃"}
+{"no": "1-1-061", "name": "전지충이", "energy": 62, "hp": 76, "atk": 55, "def": 63, "spa": 39, "spd": 51, "spe": 26, "move": "시저크로스"}
+{"no": "1-1-068", "name": "윽우지", "energy": 70, "hp": 82, "atk": 56, "def": 38, "spa": 56, "spd": 62, "spe": 56, "move": "열탕"}
+{"no": "1-1-026", "name": "나오하", "energy": 48, "hp": 60, "atk": 39, "def": 35, "spa": 30, "spd": 30, "spe": 41, "move": "나뭇잎"}
+{"no": "1-1-028", "name": "뜨아거", "energy": 48, "hp": 75, "atk": 30, "def": 38, "spa": 40, "spd": 27, "spe": 25, "move": "불꽃세례"}
+{"no": "1-1-030", "name": "꾸왁스", "energy": 48, "hp": 68, "atk": 41, "def": 30, "spa": 33, "spd": 30, "spe": 33, "move": "물대포"}
+{"no": "1-1-032", "name": "흥나숭", "energy": 42, "hp": 58, "atk": 36, "def": 29, "spa": 24, "spd": 24, "spe": 36, "move": "가지찌르기"}
+{"no": "1-1-035", "name": "염버니", "energy": 42, "hp": 58, "atk": 40, "def": 24, "spa": 24, "spd": 24, "spe": 38, "move": "불꽃세례"}
+{"no": "1-1-038", "name": "울머기", "energy": 42, "hp": 58, "atk": 24, "def": 24, "spa": 39, "spd": 24, "spe": 39, "move": "물대포"}
+{"no": "1-1-041", "name": "데덴네", "energy": 52, "hp": 66, "atk": 32, "def": 32, "spa": 44, "spd": 38, "spe": 55, "move": "전기쇼크"}
+{"no": "1-1-051", "name": "골비람", "energy": 42, "hp": 64, "atk": 42, "def": 30, "spa": 22, "spd": 30, "spe": 22, "move": "놀래키기"}
+{"no": "1-1-053", "name": "야돈", "energy": 42, "hp": 77, "atk": 37, "def": 37, "spa": 24, "spd": 24, "spe": 9, "move": "물대포"}
+{"no": "1-1-057", "name": "가라르 지그제구리", "energy": 36, "hp": 54, "atk": 20, "def": 25, "spa": 20, "spd": 25, "spe": 35, "move": "보복"}
+{"no": "1-1-060", "name": "턱지충이", "energy": 42, "hp": 58, "atk": 36, "def": 27, "spa": 32, "spd": 27, "spe": 28, "move": "벌레먹기"}
+{"no": "1-1-063", "name": "두두", "energy": 40, "hp": 50, "atk": 46, "def": 26, "spa": 21, "spd": 21, "spe": 41, "move": "쪼기"}
+{"no": "1-1-065", "name": "꼬모카", "energy": 44, "hp": 64, "atk": 28, "def": 41, "spa": 28, "spd": 41, "spe": 7, "move": "나뭇잎"}
+{"no": "1-1-069", "name": "누니머기", "energy": 30, "hp": 50, "atk": 17, "def": 22, "spa": 29, "spd": 20, "spe": 14, "move": "눈싸라기"}
+{"no": "R-1-1", "name": "피카츄", "energy": 96, "hp": 112, "atk": 71, "def": 53, "spa": 65, "spd": 65, "spe": 113, "move": "10만볼트", "gimmick": {"kind": "dynamax", "move": "다이썬더"}}
+{"no": "R-1-2", "name": "루카리오", "energy": 102, "hp": 110, "atk": 97, "def": 63, "spa": 101, "spd": 63, "spe": 80, "move": "기합구슬", "gimmick": {"kind": "dynamax", "move": "다이너클"}}
+{"no": "R-1-3", "name": "잠만보", "energy": 104, "hp": 182, "atk": 95, "def": 58, "spa": 58, "spd": 95, "spe": 29, "move": "기가임팩트", "gimmick": {"kind": "dynamax", "move": "다이어택"}}
+{"no": "1-2-001", "name": "가이오가", "energy": 152, "hp": 160, "atk": 105, "def": 95, "spa": 155, "spd": 145, "spe": 95, "move": "하이드로펌프"}
+{"no": "1-2-002", "name": "그란돈", "energy": 152, "hp": 160, "atk": 155, "def": 145, "spa": 105, "spd": 95, "spe": 95, "move": "지진"}
+{"no": "1-2-003", "name": "코라이돈", "energy": 162, "hp": 172, "atk": 150, "def": 129, "spa": 96, "spd": 113, "spe": 150, "move": "액셀브레이크"}
+{"no": "1-2-004", "name": "피카츄", "energy": 102, "hp": 118, "atk": 75, "def": 56, "spa": 69, "spd": 69, "spe": 120, "move": "10만볼트", "gimmick": {"kind": "z", "move": "스파킹기가볼트"}}
+{"no": "1-2-005", "name": "잠만보", "energy": 144, "hp": 253, "atk": 132, "def": 80, "spa": 80, "spd": 132, "spe": 39, "move": "기가임팩트", "gimmick": {"kind": "dynamax", "move": "다이어택"}}
+{"no": "1-2-006", "name": "짜랑고우거", "energy": 158, "hp": 155, "atk": 132, "def": 150, "spa": 121, "spd": 126, "spe": 103, "move": "기합구슬", "gimmick": {"kind": "dynamax", "move": "다이너클"}}
+{"no": "1-2-007", "name": "가디안", "energy": 124, "hp": 132, "atk": 72, "def": 72, "spa": 135, "spd": 124, "spe": 88, "move": "사이코키네시스"}
+{"no": "1-2-008", "name": "레시라무", "energy": 162, "hp": 169, "atk": 132, "def": 111, "spa": 164, "spd": 132, "spe": 100, "move": "크로스플레임"}
+{"no": "1-2-009", "name": "제크로무", "energy": 162, "hp": 169, "atk": 164, "def": 132, "spa": 132, "spd": 111, "spe": 100, "move": "크로스썬더"}
+{"no": "1-2-010", "name": "큐레무", "energy": 156, "hp": 195, "atk": 142, "def": 100, "spa": 142, "spd": 100, "spe": 105, "move": "눈보라"}
+{"no": "1-2-011", "name": "쥬피썬더", "energy": 108, "hp": 111, "atk": 62, "def": 57, "spa": 101, "spd": 88, "spe": 119, "move": "10만볼트"}
+{"no": "1-2-012", "name": "에브이", "energy": 112, "hp": 115, "atk": 64, "def": 60, "spa": 124, "spd": 92, "spe": 106, "move": "사이코키네시스"}
+{"no": "1-2-013", "name": "리피아", "energy": 114, "hp": 118, "atk": 108, "def": 127, "spa": 61, "spd": 66, "spe": 94, "move": "리프블레이드"}
+{"no": "1-2-014", "name": "님피아", "energy": 116, "hp": 149, "atk": 67, "def": 67, "spa": 110, "spd": 129, "spe": 62, "move": "문포스"}
+{"no": "1-2-015", "name": "루카리오", "energy": 118, "hp": 125, "atk": 110, "def": 72, "spa": 115, "spd": 72, "spe": 91, "move": "파동탄"}
+{"no": "1-2-016", "name": "토대부기", "energy": 112, "hp": 143, "atk": 105, "def": 101, "spa": 74, "spd": 83, "spe": 56, "move": "지진", "gimmick": {"kind": "z", "move": "라이징랜드오버"}}
+{"no": "1-2-017", "name": "초염몽", "energy": 114, "hp": 125, "atk": 100, "def": 70, "spa": 100, "spd": 70, "spe": 104, "move": "인파이트", "gimmick": {"kind": "z", "move": "전력무쌍격렬권"}}
+{"no": "1-2-018", "name": "엠페르트", "energy": 114, "hp": 133, "atk": 84, "def": 85, "spa": 107, "spd": 97, "spe": 60, "move": "러스터캐논", "gimmick": {"kind": "z", "move": "초월나선연격"}}
+{"no": "1-2-019", "name": "알로라 나인테일", "energy": 122, "hp": 137, "atk": 74, "def": 83, "spa": 89, "spd": 109, "spe": 118, "move": "눈보라", "gimmick": {"kind": "z", "move": "레이징지오프리즈"}}
+{"no": "1-2-020", "name": "마기라스", "energy": 132, "hp": 154, "atk": 133, "def": 110, "spa": 96, "spd": 101, "spe": 63, "move": "스톤에지", "gimmick": {"kind": "dynamax", "move": "다이록"}}
+{"no": "1-2-021", "name": "메타그로스", "energy": 132, "hp": 134, "atk": 134, "def": 129, "spa": 96, "spd": 91, "spe": 72, "move": "코멧펀치", "gimmick": {"kind": "dynamax", "move": "다이스틸"}}
+{"no": "1-2-022", "name": "애프룡", "energy": 110, "hp": 125, "atk": 110, "def": 81, "spa": 96, "spd": 62, "spe": 72, "move": "드래곤다이브"}
+{"no": "1-2-023", "name": "단지래플", "energy": 110, "hp": 163, "atk": 86, "def": 81, "spa": 101, "spd": 81, "spe": 33, "move": "사과산"}
+{"no": "1-2-024", "name": "마휘핑", "energy": 112, "hp": 120, "atk": 62, "def": 77, "spa": 110, "spd": 121, "spe": 66, "move": "매지컬샤인"}
+{"no": "1-2-025", "name": "갈가부기", "energy": 104, "hp": 138, "atk": 110, "def": 87, "spa": 48, "spd": 67, "spe": 73, "move": "양날박치기"}
+{"no": "1-2-026", "name": "마스카나", "energy": 92, "hp": 103, "atk": 86, "def": 56, "spa": 64, "spd": 56, "spe": 96, "move": "깜짝베기"}
+{"no": "1-2-027", "name": "라우드본", "energy": 92, "hp": 123, "atk": 60, "def": 79, "spa": 86, "spd": 60, "spe": 53, "move": "병상첨병"}
+{"no": "1-2-028", "name": "웨이니발", "energy": 92, "hp": 109, "atk": 93, "def": 64, "spa": 67, "spd": 60, "spe": 67, "move": "로킥"}
+{"no": "1-2-034", "name": "토대부기", "energy": 92, "hp": 117, "atk": 85, "def": 82, "spa": 60, "spd": 67, "spe": 46, "move": "분함의발구르기"}
+{"no": "1-2-037", "name": "초염몽", "energy": 92, "hp": 103, "atk": 81, "def": 57, "spa": 81, "spd": 57, "spe": 84, "move": "깨트리기"}
+{"no": "1-2-040", "name": "엠페르트", "energy": 92, "hp": 109, "atk": 68, "def": 70, "spa": 87, "spd": 79, "spe": 49, "move": "강철날개"}
+{"no": "1-2-041", "name": "샤미드", "energy": 90, "hp": 139, "atk": 51, "def": 48, "spa": 84, "spd": 73, "spe": 51, "move": "탁류"}
+{"no": "1-2-042", "name": "부스터", "energy": 90, "hp": 92, "atk": 99, "def": 48, "spa": 73, "spd": 84, "spe": 51, "move": "분연"}
+{"no": "1-2-043", "name": "블래키", "energy": 92, "hp": 117, "atk": 53, "def": 86, "spa": 49, "spd": 101, "spe": 53, "move": "물기"}
+{"no": "1-2-044", "name": "글레이시아", "energy": 94, "hp": 97, "atk": 50, "def": 88, "spa": 103, "spd": 77, "spe": 54, "move": "프리즈드라이"}
+{"no": "1-2-046", "name": "펄스멍", "energy": 84, "hp": 95, "atk": 69, "def": 48, "spa": 69, "spd": 48, "spe": 93, "move": "스파크"}
+{"no": "1-2-049", "name": "피죤투", "energy": 82, "hp": 105, "atk": 62, "def": 59, "spa": 55, "spd": 55, "spe": 77, "move": "에어슬래시"}
+{"no": "1-2-051", "name": "알로라 고지", "energy": 78, "hp": 100, "atk": 77, "def": 92, "spa": 20, "spd": 51, "spe": 51, "move": "고드름떨구기"}
+{"no": "1-2-056", "name": "플라이곤", "energy": 96, "hp": 111, "atk": 83, "def": 67, "spa": 67, "spd": 67, "spe": 83, "move": "드래곤클로"}
+{"no": "1-2-062", "name": "후딘", "energy": 88, "hp": 87, "atk": 41, "def": 37, "spa": 106, "spd": 75, "spe": 93, "move": "사이코키네시스"}
+{"no": "1-2-064", "name": "둥실라이드", "energy": 88, "hp": 158, "atk": 64, "def": 37, "spa": 71, "spd": 44, "spe": 64, "move": "병상첨병"}
+{"no": "1-2-069", "name": "가디안", "energy": 96, "hp": 102, "atk": 55, "def": 55, "spa": 102, "spd": 94, "spe": 67, "move": "사이코쇼크"}
+{"no": "1-2-033", "name": "수풀부기", "energy": 64, "hp": 87, "atk": 60, "def": 57, "spa": 39, "spd": 45, "spe": 26, "move": "메가드레인"}
+{"no": "1-2-036", "name": "파이숭이", "energy": 64, "hp": 80, "atk": 53, "def": 37, "spa": 53, "spd": 37, "spe": 55, "move": "마하펀치"}
+{"no": "1-2-039", "name": "팽태자", "energy": 64, "hp": 80, "atk": 45, "def": 47, "spa": 55, "spd": 52, "spe": 36, "move": "거품광선"}
+{"no": "1-2-048", "name": "피죤", "energy": 54, "hp": 77, "atk": 41, "def": 38, "spa": 35, "spd": 35, "spe": 47, "move": "날개치기"}
+{"no": "1-2-053", "name": "동탁군", "energy": 74, "hp": 82, "atk": 60, "def": 76, "spa": 53, "spd": 76, "spe": 24, "move": "아이언헤드"}
+{"no": "1-2-055", "name": "비브라바", "energy": 58, "hp": 76, "atk": 51, "def": 38, "spa": 38, "spd": 38, "spe": 51, "move": "드래곤테일"}
+{"no": "1-2-058", "name": "패리퍼", "energy": 70, "hp": 80, "atk": 37, "def": 69, "spa": 65, "spd": 49, "spe": 46, "move": "에어슬래시"}
+{"no": "1-2-059", "name": "루주라", "energy": 68, "hp": 79, "atk": 35, "def": 24, "spa": 74, "spd": 62, "spe": 62, "move": "눈사태"}
+{"no": "1-2-061", "name": "윤겔라", "energy": 62, "hp": 65, "atk": 26, "def": 22, "spa": 79, "spd": 48, "spe": 70, "move": "환상빔"}
+{"no": "1-2-063", "name": "흔들풍손", "energy": 56, "hp": 96, "atk": 36, "def": 25, "spa": 42, "spd": 32, "spe": 48, "move": "놀래키기"}
+{"no": "1-2-065", "name": "시마사리", "energy": 54, "hp": 76, "atk": 39, "def": 45, "spa": 33, "spd": 39, "spe": 34, "move": "베놈쇼크"}
+{"no": "1-2-066", "name": "토게데마루", "energy": 68, "hp": 83, "atk": 67, "def": 45, "spa": 30, "spd": 51, "spe": 66, "move": "스파크"}
+{"no": "1-2-068", "name": "킬리아", "energy": 50, "hp": 68, "atk": 27, "def": 27, "spa": 47, "spd": 41, "spe": 38, "move": "드레인키스"}
+{"no": "1-2-070", "name": "롱스톤", "energy": 64, "hp": 66, "atk": 34, "def": 110, "spa": 22, "spd": 34, "spe": 51, "move": "땅고르기"}
+{"no": "1-2-029", "name": "카르본", "energy": 40, "hp": 60, "atk": 33, "def": 27, "spa": 33, "spd": 27, "spe": 24, "move": "불꽃세례"}
+{"no": "1-2-030", "name": "드니차", "energy": 48, "hp": 74, "atk": 47, "def": 30, "spa": 24, "spd": 30, "spe": 35, "move": "몸통박치기"}
+{"no": "1-2-031", "name": "빠모", "energy": 40, "hp": 63, "atk": 33, "def": 16, "spa": 27, "spd": 19, "spe": 38, "move": "할퀴기"}
+{"no": "1-2-032", "name": "모부기", "energy": 44, "hp": 62, "atk": 39, "def": 37, "spa": 27, "spd": 32, "spe": 20, "move": "흡수"}
+{"no": "1-2-035", "name": "불꽃숭이", "energy": 42, "hp": 57, "atk": 34, "def": 27, "spa": 34, "spd": 27, "spe": 35, "move": "불꽃세례"}
+{"no": "1-2-038", "name": "팽도리", "energy": 44, "hp": 61, "atk": 30, "def": 31, "spa": 35, "spd": 33, "spe": 25, "move": "거품"}
+{"no": "1-2-045", "name": "멍파치", "energy": 38, "hp": 62, "atk": 26, "def": 29, "spa": 24, "spd": 29, "spe": 16, "move": "볼부비부비"}
+{"no": "1-2-047", "name": "구구", "energy": 36, "hp": 53, "atk": 26, "def": 24, "spa": 21, "spd": 21, "spe": 31, "move": "바람일으키기"}
+{"no": "1-2-050", "name": "알로라 모래두지", "energy": 40, "hp": 58, "atk": 41, "def": 50, "spa": 6, "spd": 21, "spe": 24, "move": "고드름침"}
+{"no": "1-2-052", "name": "동미러", "energy": 42, "hp": 63, "atk": 17, "def": 48, "spa": 17, "spd": 48, "spe": 16, "move": "염동력"}
+{"no": "1-2-054", "name": "톱치", "energy": 40, "hp": 57, "atk": 55, "def": 27, "spa": 27, "spd": 27, "spe": 6, "move": "모래지옥"}
+{"no": "1-2-057", "name": "갈모매", "energy": 38, "hp": 55, "atk": 19, "def": 19, "spa": 34, "spd": 19, "spe": 50, "move": "바람일으키기"}
+{"no": "1-2-060", "name": "캐이시", "energy": 42, "hp": 47, "atk": 13, "def": 9, "spa": 57, "spd": 32, "spe": 50, "move": "잠재파워"}
+{"no": "1-2-067", "name": "랄토스", "energy": 32, "hp": 49, "atk": 17, "def": 17, "spa": 29, "spd": 22, "spe": 25, "move": "차밍보이스"}

@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Place, PriceStat, Tag, TagScore } from './types.ts';
+import type { TagStats } from './battle/types.ts';
 import { asset } from './site.ts';
 
 export interface Meta {
@@ -33,6 +34,11 @@ export function getPrices(): PriceStat[] {
 
 export function getScores(): TagScore[] {
   return load<TagScore[]>('scores.json', []);
+}
+
+/** 배틀용 전투 수치. 태그 이미지에서 읽어 data/tag-stats.jsonl 에 적어둔 것을 빌드한 결과다. */
+export function getStats(): TagStats[] {
+  return load<TagStats[]>('stats.json', []);
 }
 
 export function getMeta(): Meta {
