@@ -2,7 +2,10 @@ import { describe, expect, it } from 'vitest';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 
-import { createBattle, resolveTurn, revealFoe, selectable, toFighter, availableGimmick } from '../src/lib/battle/battle.ts';
+import {
+  createBattle, createEncounter, resolveTurn, revealFoe, selectable, startBattle,
+  toFighter, availableGimmick,
+} from '../src/lib/battle/battle.ts';
 import { resolveAttack } from '../src/lib/battle/damage.ts';
 import { MOVES } from '../src/lib/battle/moves.ts';
 import { seededRng } from '../src/lib/battle/rng.ts';
@@ -161,6 +164,21 @@ describe('배틀 진행', () => {
   const minions = [pick('1-1-026'), pick('1-1-028'), pick('1-1-030')];
 
   const start = () => createBattle({ bosses, minions, team, rng: seededRng(99) });
+
+  /** 공식 순서는 «상대 등장 → 너의 포켓몬을 꺼내자» 다. 상대가 팀보다 먼저 정해져야 한다. */
+  it('상대는 팀 없이 먼저 만들 수 있다', () => {
+    const encounter = createEncounter({ bosses, minions, rng: seededRng(99) });
+    expect(encounter.foes).toHaveLength(3);
+    expect(encounter.foes[encounter.bossIndex].name).toBe('가이오가');
+  });
+
+  it('같은 상대로 팀만 바꿔 시작할 수 있다', () => {
+    const encounter = createEncounter({ bosses, minions, rng: seededRng(99) });
+    const a = startBattle(encounter, team);
+    const b = startBattle(encounter, [pick('R-1-3'), pick('1-1-003'), pick('1-2-004')]);
+    expect(a.foes.map((f) => f.no)).toEqual(b.foes.map((f) => f.no));
+    expect(a.team[0].no).not.toBe(b.team[0].no);
+  });
 
   it('가운데가 보스다', () => {
     const state = start();

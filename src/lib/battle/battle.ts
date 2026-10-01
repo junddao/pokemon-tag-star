@@ -47,6 +47,45 @@ export function toFighter(stats: TagStats): Fighter {
   };
 }
 
+/**
+ * 상대 3마리. 공식 진행 순서에서 «상대 포켓몬 등장»이 «너의 포켓몬을 꺼내자»보다
+ * 먼저 오기 때문에, 팀과 떼어서 따로 만든다. 누가 나왔는지 보고 상성을 맞춰
+ * 태그를 고르는 것이 이 게임의 핵심이다.
+ */
+export interface Encounter {
+  foes: Fighter[];
+  bossIndex: number;
+}
+
+export function createEncounter({ bosses, minions, rng }: {
+  bosses: TagStats[];
+  minions: TagStats[];
+  rng: Rng;
+}): Encounter {
+  const boss = rng.pick(bosses);
+  // 보스와 같은 포켓몬이 양옆에 서면 어느 쪽이 보스인지 헷갈린다.
+  const pool = minions.filter((m) => m.name !== boss.name);
+  const left = rng.pick(pool);
+  const right = rng.pick(pool.filter((m) => m.no !== left.no));
+
+  return { foes: [toFighter(left), toFighter(boss), toFighter(right)], bossIndex: 1 };
+}
+
+export function startBattle(encounter: Encounter, team: TagStats[]): BattleState {
+  return {
+    phase: 'reveal',
+    turn: 1,
+    foes: encounter.foes,
+    bossIndex: encounter.bossIndex,
+    team: team.map(toFighter),
+    revealed: encounter.bossIndex,
+    lastUsed: null,
+    usedGimmicks: [],
+    log: [],
+    won: false,
+  };
+}
+
 export interface CreateBattleOptions {
   /** 보스 후보 (★5·★6·레귤러) */
   bosses: TagStats[];
@@ -58,24 +97,7 @@ export interface CreateBattleOptions {
 }
 
 export function createBattle({ bosses, minions, team, rng }: CreateBattleOptions): BattleState {
-  const boss = rng.pick(bosses);
-  // 보스와 같은 포켓몬이 양옆에 서면 어느 쪽이 보스인지 헷갈린다.
-  const pool = minions.filter((m) => m.name !== boss.name);
-  const left = rng.pick(pool);
-  const right = rng.pick(pool.filter((m) => m.no !== left.no));
-
-  return {
-    phase: 'reveal',
-    turn: 1,
-    foes: [toFighter(left), toFighter(boss), toFighter(right)],
-    bossIndex: 1,
-    team: team.map(toFighter),
-    revealed: 1,
-    lastUsed: null,
-    usedGimmicks: [],
-    log: [],
-    won: false,
-  };
+  return startBattle(createEncounter({ bosses, minions, rng }), team);
 }
 
 /** 상대가 이번 턴에 낼 한 마리를 정한다. 쓰러진 쪽은 빼고, 보스가 조금 더 자주 나온다. */
