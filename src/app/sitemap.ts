@@ -11,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${CANONICAL}/`, lastModified, priority: 1 },
     { url: `${CANONICAL}/dex/`, lastModified, priority: 0.9 },
     { url: `${CANONICAL}/trade/`, lastModified, priority: 0.8 },
+    { url: `${CANONICAL}/play/`, lastModified, priority: 0.8 },
+    { url: `${CANONICAL}/boss/`, lastModified, priority: 0.8 },
     { url: `${CANONICAL}/map/`, lastModified, priority: 0.7 },
     { url: `${CANONICAL}/privacy/`, lastModified, priority: 0.1 },
   ];
