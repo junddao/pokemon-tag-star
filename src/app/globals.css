@@ -158,3 +158,88 @@ body {
 .leaflet-tile-pane {
   filter: invert(1) hue-rotate(200deg) brightness(0.82) contrast(0.95) saturate(0.28);
 }
+
+/* ── 배틀 연출 ────────────────────────────────────────────────
+   태그 이미지는 정지 일러스트라 스프라이트를 돌릴 수 없다. 대신 변형과
+   이펙트로 움직임을 만든다. prism-card 와 같은 이유로 CSS 합성만 쓴다. */
+
+@keyframes battle-lunge-up {
+  0%   { transform: translateY(0) scale(1); }
+  35%  { transform: translateY(-18%) scale(1.08); }
+  100% { transform: translateY(0) scale(1); }
+}
+@keyframes battle-lunge-down {
+  0%   { transform: translateY(0) scale(1); }
+  35%  { transform: translateY(18%) scale(1.08); }
+  100% { transform: translateY(0) scale(1); }
+}
+@keyframes battle-shake {
+  0%, 100% { transform: translateX(0); filter: none; }
+  15%      { transform: translateX(-7%); filter: brightness(2.4); }
+  30%      { transform: translateX(6%); filter: brightness(1); }
+  45%      { transform: translateX(-5%); filter: brightness(2); }
+  60%      { transform: translateX(4%); }
+  80%      { transform: translateX(-2%); }
+}
+@keyframes battle-faint {
+  0%   { transform: translateY(0) rotate(0); opacity: 1; }
+  100% { transform: translateY(45%) rotate(14deg); opacity: 0; }
+}
+@keyframes battle-damage-pop {
+  0%   { transform: translateY(6px) scale(0.6); opacity: 0; }
+  25%  { transform: translateY(-14px) scale(1.25); opacity: 1; }
+  70%  { transform: translateY(-20px) scale(1); opacity: 1; }
+  100% { transform: translateY(-34px) scale(0.95); opacity: 0; }
+}
+@keyframes battle-banner-in {
+  0%   { transform: translateX(-120%) skewX(-12deg); opacity: 0; }
+  20%  { transform: translateX(0) skewX(-12deg); opacity: 1; }
+  80%  { transform: translateX(0) skewX(-12deg); opacity: 1; }
+  100% { transform: translateX(120%) skewX(-12deg); opacity: 0; }
+}
+/* 맞은 포켓몬 안에서만 번쩍인다. 전체를 덮으면 데미지 숫자까지 가려진다.
+   forwards 가 없으면 애니메이션이 끝나는 순간 기본 opacity 로 되돌아가 흰 판이 남는다. */
+@keyframes battle-impact {
+  0%   { opacity: 0; box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0); }
+  15%  { opacity: 1; box-shadow: inset 0 0 28px 6px rgba(255, 255, 255, 0.9); }
+  55%  { opacity: 1; box-shadow: inset 0 0 18px 2px rgba(244, 63, 94, 0.55); }
+  100% { opacity: 0; box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0); }
+}
+@keyframes battle-aura {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(236, 72, 153, 0.0); }
+  50%      { box-shadow: 0 0 34px 10px rgba(236, 72, 153, 0.55); }
+}
+@keyframes battle-ball-throw {
+  0%   { transform: translate(0, 0) scale(0.7) rotate(0deg); }
+  55%  { transform: translate(0, -140px) scale(1.05) rotate(420deg); }
+  100% { transform: translate(0, -96px) scale(0.9) rotate(540deg); }
+}
+@keyframes battle-ball-wobble {
+  0%, 100% { transform: rotate(0deg); }
+  25%      { transform: rotate(-22deg); }
+  75%      { transform: rotate(22deg); }
+}
+
+.battle-lunge-up   { animation: battle-lunge-up 460ms ease-out; }
+.battle-lunge-down { animation: battle-lunge-down 460ms ease-out; }
+.battle-shake      { animation: battle-shake 460ms ease-out; }
+.battle-faint      { animation: battle-faint 620ms ease-in forwards; }
+.battle-damage-pop { animation: battle-damage-pop 900ms ease-out forwards; }
+.battle-banner     { animation: battle-banner-in 1100ms ease-out forwards; }
+.battle-impact     { opacity: 0; animation: battle-impact 620ms ease-out forwards; }
+.battle-aura       { animation: battle-aura 1200ms ease-in-out infinite; }
+.battle-ball-throw { animation: battle-ball-throw 700ms cubic-bezier(0.3, 0.9, 0.5, 1) forwards; }
+.battle-ball-wobble{ animation: battle-ball-wobble 520ms ease-in-out 3; }
+
+/* 룰렛 바늘과 연타 게이지는 transform/width 만 건드려 레이아웃을 다시 잡지 않는다 */
+.battle-wheel-spin { transition: transform 120ms linear; }
+.battle-gauge      { transition: width 90ms linear, background-color 160ms linear; }
+
+@media (prefers-reduced-motion: reduce) {
+  .battle-lunge-up, .battle-lunge-down, .battle-shake, .battle-faint,
+  .battle-damage-pop, .battle-banner, .battle-impact, .battle-aura,
+  .battle-ball-throw, .battle-ball-wobble {
+    animation-duration: 1ms;
+    animation-iteration-count: 1;
+  }
+}

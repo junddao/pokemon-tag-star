@@ -38,6 +38,25 @@ export default function HomePage() {
         <InstallApp />
       </section>
 
+      {/* 배틀은 유일하게 «해보는» 화면이라 바로가기 네 칸에 섞지 않고 따로 세운다.
+          다섯 칸으로 늘리면 sm 2열에서 한 장이 혼자 떨어지기도 한다. */}
+      <Link
+        href="/play"
+        className="group relative block overflow-hidden rounded-2xl border border-amber-300/25 bg-gradient-to-br from-fuchsia-500/20 via-violet-500/15 to-sky-500/20 p-5 transition hover:-translate-y-0.5 hover:border-amber-300/50 sm:p-6"
+      >
+        <div className="flex items-center gap-4">
+          <span className="text-4xl sm:text-5xl">🎮</span>
+          <div className="min-w-0 flex-1">
+            <p className="text-[11px] font-black uppercase tracking-widest text-amber-300">NEW</p>
+            <h2 className="mt-0.5 text-lg font-extrabold text-white sm:text-xl">배틀로 겟 — 내 태그로 플레이</h2>
+            <p className="mt-1 text-pretty text-xs leading-relaxed text-violet-100/70 sm:text-sm">
+              내 태그 3장으로 보스에 도전해요. 공격 룰렛·버튼 연타·다이맥스까지 실제 기계 순서 그대로.
+            </p>
+          </div>
+          <span aria-hidden className="shrink-0 text-xl text-amber-300 transition group-hover:translate-x-1">→</span>
+        </div>
+      </Link>
+
       <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {SHORTCUTS.map((s) => (
           <Link
