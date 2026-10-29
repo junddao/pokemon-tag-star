@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { isUsableListing, median, summarizePrices } from '../src/lib/parse-prices.ts';
+import { isUsableListing, median, parseBunjangSearch, summarizePrices } from '../src/lib/parse-prices.ts';
 
 // 번개장터 검색에서 실제로 관측된 오염 사례들
 const OTHER_NAMES = ['가이오가', '그란돈', '잠만보', '코라이돈', '피카츄', '뮤츠'];
@@ -72,5 +72,36 @@ describe('시세 집계', () => {
     ], ctx);
     expect(stat.samples).toBe(1);
     expect(stat.median).toBeNull();
+  });
+});
+
+// 번개장터 검색 v8 응답. 2026-10 에 find_v2.json 이 사라지면서 이 모양으로 바뀌었다.
+describe('번개장터 응답 읽기', () => {
+  const body = (items: unknown[]) => ({
+    data: { responses: { mainGrid: { searchResponse: { data: items, totalCount: items.length } } } },
+  });
+
+  it('판매 중인 매물의 제목과 가격을 뽑는다', () => {
+    expect(parseBunjangSearch(body([
+      { pid: 1, name: '포켓몬 태그스타 뮤츠', price: 30000, status: 'SELLING', ad: false },
+      { pid: 2, name: '포켓몬 태그스타 6성 뮤츠', price: 25000, status: 'SELLING', ad: false },
+    ]))).toEqual([
+      { name: '포켓몬 태그스타 뮤츠', price: 30000 },
+      { name: '포켓몬 태그스타 6성 뮤츠', price: 25000 },
+    ]);
+  });
+
+  it('광고와 판매 종료 매물을 거른다', () => {
+    expect(parseBunjangSearch(body([
+      { pid: 1, name: '광고 뮤츠', price: 30000, status: 'SELLING', ad: true },
+      { pid: 2, name: '팔린 뮤츠', price: 25000, status: 'SOLD_OUT', ad: false },
+      { pid: 3, name: '파는 뮤츠', price: 20000, status: 'SELLING', ad: false },
+    ]))).toEqual([{ name: '파는 뮤츠', price: 20000 }]);
+  });
+
+  it('응답 모양이 달라지면 빈 목록을 준다', () => {
+    expect(parseBunjangSearch({})).toEqual([]);
+    expect(parseBunjangSearch({ data: { responses: {} } })).toEqual([]);
+    expect(parseBunjangSearch({ list: [{ name: '옛 응답', price: '30000' }] })).toEqual([]);
   });
 });

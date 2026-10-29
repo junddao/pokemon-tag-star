@@ -7,7 +7,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { parsePlacePage, parseStagePage, parseTagDetail } from '../src/lib/parse-official.ts';
-import { summarizePrices } from '../src/lib/parse-prices.ts';
+import { parseBunjangSearch, summarizePrices } from '../src/lib/parse-prices.ts';
 import { reuseLocalImages } from '../src/lib/images.ts';
 import { buildScores } from '../src/lib/scoring.ts';
 import type { Place, PriceStat, ScrapeRun, Tag } from '../src/lib/types.ts';
@@ -18,6 +18,10 @@ const IMAGE_DIR = path.join(ROOT, 'public', 'tags');
 const RUN_LOG = path.join(ROOT, 'data', 'scrape-runs.json');
 
 const BASE = 'https://pokemontagstar.co.kr';
+// 번개장터 검색. 2026-10 에 find_v2.json 이 사라져 웹앱이 쓰는 v8 로 옮겼다.
+// size 는 무시되고 한 번에 60건까지 준다. 태그 하나당 검색이라 그걸로 충분하다.
+const BUNJANG = 'https://api.bunjang.co.kr/api/search/v8/web/search';
+const BUNJANG_POLICY = 'pw.product.keyword';
 const STAGE_CATEGORIES = [1, 4];
 // HTTP 헤더는 Latin-1 만 담을 수 있으므로 ASCII 로만 적는다.
 const UA = 'pokestar-fansite/1.0 (non-commercial fan site; fetches once per day)';
@@ -95,11 +99,11 @@ async function collectPrices(tags: Tag[]): Promise<PriceStat[]> {
   const allNames = [...new Set(tags.map((t) => t.name))];
   return mapLimit(tags, 3, async (tag) => {
     const q = encodeURIComponent(`포켓몬 태그스타 ${tag.name}`);
-    const url = `https://api.bunjang.co.kr/api/1/find_v2.json?q=${q}&order=score&page=0&n=100&stat_device=w`;
+    const url = `${BUNJANG}?q=${q}&policyKey=${BUNJANG_POLICY}&size=60`;
     try {
-      const raw = await get(url);
-      const json = JSON.parse(raw) as { list?: { name: string; price: string }[] };
-      return summarizePrices(tag.no, json.list ?? [], { name: tag.name, otherNames: allNames });
+      const raw = await get(url, { headers: { Accept: 'application/json' } });
+      const listings = parseBunjangSearch(JSON.parse(raw));
+      return summarizePrices(tag.no, listings, { name: tag.name, otherNames: allNames });
     } catch {
       notes.push(`시세 실패: ${tag.no} ${tag.name}`);
       return { no: tag.no, median: null, samples: 0, min: null, max: null, observedAt: new Date().toISOString() };

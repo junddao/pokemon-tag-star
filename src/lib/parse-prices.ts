@@ -72,3 +72,25 @@ export function summarizePrices(
     observedAt,
   };
 }
+
+interface BunjangItem {
+  name?: unknown;
+  price?: unknown;
+  status?: unknown;
+  ad?: unknown;
+}
+
+/**
+ * 번개장터 검색 v8 응답에서 매물 목록을 꺼낸다.
+ * 광고와 판매가 끝난 매물은 참고 시세에 넣지 않는다.
+ */
+export function parseBunjangSearch(json: unknown): RawListing[] {
+  const items = (json as { data?: { responses?: { mainGrid?: { searchResponse?: { data?: unknown } } } } })
+    ?.data?.responses?.mainGrid?.searchResponse?.data;
+  if (!Array.isArray(items)) return [];
+
+  return (items as BunjangItem[])
+    .filter((item) => item.ad !== true && item.status === 'SELLING')
+    .filter((item) => typeof item.name === 'string' && typeof item.price === 'number')
+    .map((item) => ({ name: item.name as string, price: item.price as number }));
+}
