@@ -1,5 +1,18 @@
 [
   {
+    "startedAt": "2026-10-29T05:36:32.082Z",
+    "finishedAt": "2026-10-29T05:36:49.962Z",
+    "ok": true,
+    "tags": 143,
+    "places": 375,
+    "pricedTags": 24,
+    "notes": [
+      "stage cate=1 \"스타태그 스타더스트 1탄\" → 73개",
+      "place → 375곳",
+      "stage cate=4 \"스타태그 스타더스트 2탄\" → 73개"
+    ]
+  },
+  {
     "startedAt": "2026-09-15T02:47:09.252Z",
     "finishedAt": "2026-09-15T02:47:19.301Z",
     "ok": true,

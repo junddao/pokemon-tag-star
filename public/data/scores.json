@@ -1,73 +1,73 @@
 [
   {
     "no": "1-1-001",
-    "tp": 62.5,
+    "tp": 372.5,
     "confidence": "market",
-    "priceKrw": 25000,
-    "samples": 9
+    "priceKrw": 149000,
+    "samples": 3
   },
   {
     "no": "1-1-002",
-    "tp": 66.3,
+    "tp": 106.3,
     "confidence": "market",
-    "priceKrw": 26500,
-    "samples": 7
+    "priceKrw": 42500,
+    "samples": 4
   },
   {
     "no": "1-1-003",
-    "tp": 56.3,
-    "confidence": "market",
-    "priceKrw": 22500,
-    "samples": 8
+    "tp": 80,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 2
   },
   {
     "no": "1-1-004",
-    "tp": 43.8,
+    "tp": 50,
     "confidence": "market",
-    "priceKrw": 17500,
-    "samples": 10
+    "priceKrw": 20000,
+    "samples": 7
   },
   {
     "no": "1-1-005",
-    "tp": 37.5,
+    "tp": 75,
     "confidence": "market",
-    "priceKrw": 15000,
-    "samples": 9
+    "priceKrw": 30000,
+    "samples": 5
   },
   {
     "no": "1-1-006",
-    "tp": 25,
+    "tp": 27.5,
     "confidence": "market",
-    "priceKrw": 10000,
-    "samples": 10
-  },
-  {
-    "no": "1-1-007",
-    "tp": 125,
-    "confidence": "market",
-    "priceKrw": 50000,
-    "samples": 27
-  },
-  {
-    "no": "1-1-008",
-    "tp": 30,
-    "confidence": "market",
-    "priceKrw": 12000,
+    "priceKrw": 11000,
     "samples": 8
   },
   {
-    "no": "1-1-009",
-    "tp": 37.5,
+    "no": "1-1-007",
+    "tp": 137.5,
     "confidence": "market",
-    "priceKrw": 15000,
-    "samples": 6
+    "priceKrw": 55000,
+    "samples": 10
+  },
+  {
+    "no": "1-1-008",
+    "tp": 32.5,
+    "confidence": "market",
+    "priceKrw": 13000,
+    "samples": 5
+  },
+  {
+    "no": "1-1-009",
+    "tp": 49.8,
+    "confidence": "market",
+    "priceKrw": 19900,
+    "samples": 3
   },
   {
     "no": "1-1-010",
     "tp": 37.5,
     "confidence": "market",
     "priceKrw": 15000,
-    "samples": 3
+    "samples": 4
   },
   {
     "no": "1-1-011",
@@ -88,7 +88,7 @@
     "tp": 10,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 3
+    "samples": 2
   },
   {
     "no": "1-1-014",
@@ -109,7 +109,7 @@
     "tp": 10,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 1
+    "samples": 0
   },
   {
     "no": "1-1-017",
@@ -123,14 +123,14 @@
     "tp": 10,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 1
+    "samples": 0
   },
   {
     "no": "1-1-019",
     "tp": 12.5,
     "confidence": "market",
     "priceKrw": 5000,
-    "samples": 52
+    "samples": 36
   },
   {
     "no": "1-1-020",
@@ -158,7 +158,7 @@
     "tp": 10,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 2
+    "samples": 0
   },
   {
     "no": "1-1-024",
@@ -172,7 +172,7 @@
     "tp": 10,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 1
+    "samples": 2
   },
   {
     "no": "1-1-034",
@@ -193,7 +193,7 @@
     "tp": 0.5,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 2
+    "samples": 0
   },
   {
     "no": "1-1-043",
@@ -340,14 +340,14 @@
     "tp": 2,
     "confidence": "market",
     "priceKrw": 800,
-    "samples": 52
+    "samples": 36
   },
   {
     "no": "1-1-044",
     "tp": 0.6,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 1
+    "samples": 0
   },
   {
     "no": "1-1-049",
@@ -438,7 +438,7 @@
     "tp": 0.3,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 0
+    "samples": 2
   },
   {
     "no": "1-1-051",
@@ -494,77 +494,77 @@
     "tp": 3,
     "confidence": "market",
     "priceKrw": 1200,
-    "samples": 52
+    "samples": 36
   },
   {
     "no": "R-1-2",
     "tp": 0.4,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 3
+    "samples": 1
   },
   {
     "no": "R-1-3",
-    "tp": 0.4,
-    "confidence": "estimated",
-    "priceKrw": null,
-    "samples": 5
+    "tp": 3,
+    "confidence": "market",
+    "priceKrw": 1200,
+    "samples": 10
   },
   {
     "no": "1-2-001",
-    "tp": 62.5,
-    "confidence": "market",
-    "priceKrw": 25000,
-    "samples": 5
+    "tp": 104,
+    "confidence": "estimated",
+    "priceKrw": null,
+    "samples": 1
   },
   {
     "no": "1-2-002",
-    "tp": 78.8,
+    "tp": 75,
     "confidence": "market",
-    "priceKrw": 31500,
-    "samples": 8
+    "priceKrw": 30000,
+    "samples": 5
   },
   {
     "no": "1-2-003",
-    "tp": 150,
+    "tp": 135,
     "confidence": "market",
-    "priceKrw": 60000,
-    "samples": 7
+    "priceKrw": 54000,
+    "samples": 5
   },
   {
     "no": "1-2-004",
     "tp": 12.5,
     "confidence": "market",
     "priceKrw": 5000,
-    "samples": 52
+    "samples": 36
   },
   {
     "no": "1-2-005",
-    "tp": 26.8,
+    "tp": 18.8,
     "confidence": "market",
-    "priceKrw": 10700,
-    "samples": 5
+    "priceKrw": 7500,
+    "samples": 10
   },
   {
     "no": "1-2-006",
-    "tp": 33.8,
+    "tp": 25,
     "confidence": "market",
-    "priceKrw": 13500,
+    "priceKrw": 10000,
     "samples": 6
   },
   {
     "no": "1-2-007",
-    "tp": 60,
+    "tp": 43.8,
     "confidence": "market",
-    "priceKrw": 24000,
+    "priceKrw": 17500,
     "samples": 4
   },
   {
     "no": "1-2-008",
-    "tp": 53.8,
+    "tp": 46.3,
     "confidence": "market",
-    "priceKrw": 21500,
-    "samples": 10
+    "priceKrw": 18500,
+    "samples": 5
   },
   {
     "no": "1-2-009",
@@ -575,10 +575,10 @@
   },
   {
     "no": "1-2-010",
-    "tp": 35,
+    "tp": 25,
     "confidence": "market",
-    "priceKrw": 14000,
-    "samples": 6
+    "priceKrw": 10000,
+    "samples": 5
   },
   {
     "no": "1-2-011",
@@ -613,7 +613,7 @@
     "tp": 14,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 3
+    "samples": 1
   },
   {
     "no": "1-2-016",
@@ -645,17 +645,17 @@
   },
   {
     "no": "1-2-020",
-    "tp": 37.5,
+    "tp": 40,
     "confidence": "market",
-    "priceKrw": 15000,
-    "samples": 9
+    "priceKrw": 16000,
+    "samples": 5
   },
   {
     "no": "1-2-021",
-    "tp": 25,
+    "tp": 27.5,
     "confidence": "market",
-    "priceKrw": 10000,
-    "samples": 10
+    "priceKrw": 11000,
+    "samples": 8
   },
   {
     "no": "1-2-022",
@@ -746,7 +746,7 @@
     "tp": 0.5,
     "confidence": "estimated",
     "priceKrw": null,
-    "samples": 3
+    "samples": 2
   },
   {
     "no": "1-2-044",
