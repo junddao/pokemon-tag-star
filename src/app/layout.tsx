@@ -8,13 +8,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(CANONICAL || 'http://localhost:3000'),
   appleWebApp: { capable: true, title: '태그스타', statusBarStyle: 'black-translucent' },
   icons: { apple: asset('/icons/apple-touch-icon.png') },
-  alternates: { canonical: '/' },
   title: {
     default: '포켓몬 태그스타 도감 · 시세 · 트레이드 계산기',
     template: '%s | 태그스타 도감',
   },
   description:
-    '포켓몬 태그스타 전체 태그를 등급별로 정리하고, 중고 실거래 시세와 트레이드 손익 판정, 내 주변 설치 매장까지 한 곳에서 확인하세요.',
+    '포켓몬 태그스타 전체 태그 도감과 중고 매물 기반 참고 시세, 교환 계산기, 보스 공략, 전국 게임기 설치 매장을 한 곳에서 확인하세요.',
   keywords: ['포켓몬 태그스타', '태그스타 시세', '태그스타 도감', '포켓몬 태그 교환', '태그스타 매장'],
   openGraph: {
     title: '포켓몬 태그스타 도감 · 시세 · 트레이드 계산기',
@@ -23,7 +22,13 @@ export const metadata: Metadata = {
     locale: 'ko_KR',
   },
   // Search Console 소유권 확인. vercel.app 하위 도메인은 DNS 확인이 불가해 메타 태그로 받는다.
-  verification: { google: 'ZRrlSYLrdvvmTATzXxCxWFmF_XYMpBFOHqsIGrtfEj4' },
+  verification: {
+    google: 'ZRrlSYLrdvvmTATzXxCxWFmF_XYMpBFOHqsIGrtfEj4',
+    other: {
+      'msvalidate.01': '995BB1DE546F375028F6B3B560F639BD',
+      'naver-site-verification': 'ca50fb118ad43d4f2f4f24dc5dce245fd1ada66b',
+    },
+  },
 };
 
 export const viewport: Viewport = {

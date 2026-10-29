@@ -1,7 +1,13 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import TagCard from '@/components/TagCard';
 import InstallApp from '@/components/InstallApp';
 import { getMeta, getTagsWithScores } from '@/lib/data';
+import { CANONICAL } from '@/lib/site';
+
+export const metadata: Metadata = {
+  alternates: { canonical: '/' },
+};
 
 const SHORTCUTS = [
   { href: '/dex', emoji: '📖', title: '도감', desc: '등급별 전체 태그와 시세' },
@@ -27,8 +33,18 @@ export default function HomePage() {
 
   return (
     <div className="space-y-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: '태그스타 도감',
+        alternateName: '포켓몬 태그스타 도감',
+        url: `${CANONICAL}/`,
+        inLanguage: 'ko-KR',
+        description: '포켓몬 태그스타 비공식 팬사이트. 태그 도감, 중고 매물 기반 참고 시세, 교환 계산기, 보스 공략과 설치 매장을 제공합니다.',
+      }).replace(/</g, '\\u003c') }} />
       <section className="pt-4 text-center sm:pt-10">
         <h1 className="text-balance text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl">
+          <span className="mb-3 block text-base font-bold text-violet-200/80 sm:text-xl">포켓몬 태그스타 도감·시세</span>
           내 태그, <span className="bg-gradient-to-r from-amber-300 via-fuchsia-400 to-sky-400 bg-clip-text text-transparent">얼마짜리</span>일까?
         </h1>
         <p className="mx-auto mt-4 max-w-md text-pretty text-sm leading-relaxed text-violet-200/65 sm:text-base">
@@ -101,6 +117,26 @@ export default function HomePage() {
           <li><b className="text-fuchsia-200">스타태그 ★5</b> — 탄마다 15장. 교환에서 실제로 쳐주는 하한선.</li>
           <li><b className="text-slate-300">★4 이하 · 레귤러</b> — 수가 많아 교환에서는 덤으로 봐요.</li>
         </ul>
+      </section>
+
+      <section className="space-y-5 text-sm leading-relaxed text-violet-200/65">
+        <h2 className="text-lg font-bold text-violet-100">태그스타 도감 이용 안내</h2>
+        <div>
+          <h3 className="font-bold text-violet-100">포켓몬 태그스타 시세는 어디서 확인하나요?</h3>
+          <p className="mt-1"><Link href="/dex" className="underline">태그 도감</Link>에서 포켓몬 이름이나 태그 번호를 검색하면 개별 태그의 참고 시세와 거래점수(TP)를 확인할 수 있어요. 시세는 중고 판매 매물을 바탕으로 계산한 값이며, 거래 완료 가격을 확인한 실거래가는 아닙니다. 표본이 부족한 태그에는 등급 기반 추정치를 표시합니다.</p>
+        </div>
+        <div>
+          <h3 className="font-bold text-violet-100">태그 교환 가치는 어떻게 비교하나요?</h3>
+          <p className="mt-1"><Link href="/trade" className="underline">교환 계산기</Link>에 내 태그와 상대 태그를 담아 참고 거래점수를 비교하세요. ★6 슈퍼스타와 ★5 스타처럼 등급이 다른 교환에는 별도 경고를 표시합니다. 실제 교환 조건은 태그 상태와 상대방의 선호도에 따라 달라질 수 있어요.</p>
+        </div>
+        <div>
+          <h3 className="font-bold text-violet-100">태그스타 게임기 설치 매장은 어디에 있나요?</h3>
+          <p className="mt-1"><Link href="/map" className="underline">설치 매장 찾기</Link>에서 공식 사이트에 안내된 전국 {meta.counts.places}곳의 매장과 주소를 확인할 수 있어요. 위치 권한을 허용하면 가까운 순으로 찾을 수 있습니다. 설치·운영 여부는 방문 전 매장에 확인하세요.</p>
+        </div>
+        <div>
+          <h3 className="font-bold text-violet-100">공식 사이트인가요? 정보 출처는 어디인가요?</h3>
+          <p className="mt-1">태그스타 도감은 비공식 팬사이트입니다. 태그와 설치 매장 정보는 <a href={meta.source} className="underline" target="_blank" rel="noreferrer noopener">포켓몬태그스타 공식 사이트</a>를 바탕으로 정리합니다. 마지막 데이터 갱신 시각은 각 페이지 하단에 표시합니다.</p>
+        </div>
       </section>
     </div>
   );

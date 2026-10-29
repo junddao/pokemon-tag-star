@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
+    "verify-seo": "node scripts/verify-seo.mjs",
     "scrape": "node scripts/scrape.ts",
     "build-stats": "node scripts/build-stats.ts"
   },

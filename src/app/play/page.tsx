@@ -3,6 +3,7 @@ import BattleGame from '@/components/battle/BattleGame';
 import { getStats, getTagsWithScores } from '@/lib/data';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/play/' },
   title: '배틀로 겟 — 내 태그로 플레이',
   description: '보유한 태그 3장으로 보스에 도전하는 연습 배틀. 공격 룰렛·버튼 연타·선공 찬스·다이맥스까지 실제 기계 순서를 따릅니다.',
 };

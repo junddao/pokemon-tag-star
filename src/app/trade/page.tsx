@@ -3,7 +3,8 @@ import TradeCalculator from '@/components/TradeCalculator';
 import { getTagsWithScores } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: '트레이드 계산기 — 누가 손해인지 바로 확인',
+  alternates: { canonical: '/trade/' },
+  title: '포켓몬 태그스타 교환·트레이드 계산기',
   description:
     '내 태그와 상대 태그를 담으면 등급 가중치로 손익을 판정합니다. ★5를 아무리 쌓아도 ★6이 되지 않는 등급 사다리까지 알려줍니다.',
 };

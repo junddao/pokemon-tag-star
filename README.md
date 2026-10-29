@@ -22,6 +22,16 @@ npm run dev      # http://localhost:3000
 | `npm run scrape -- --no-images` | 이미지 내려받기를 건너뜀 (직전 로컬 경로를 이어붙임) |
 | `npm run build-stats` | `data/tag-stats.jsonl` → `public/data/stats.json` (탄 추가 시에만) |
 | `npm test` | 파서·시세 필터·점수·트레이드 판정·배틀 엔진 테스트 |
+| `npm run verify-seo` | 빌드 산출물의 전체 대표 주소·색인 허용·구조화 데이터·매장 주소 검증 |
+
+검색 설정을 수정한 뒤에는 `NEXT_PUBLIC_SITE_URL=https://pokemon-tag-star.vercel.app npm run build`로
+실제 배포 도메인을 지정해 빌드하고 `npm run verify-seo`를 실행합니다. 각 페이지는 자신의 URL을
+canonical로 지정해야 합니다. 공통 레이아웃에 홈페이지 canonical을 두면 하위 페이지까지
+홈페이지의 대체 페이지로 전달됩니다.
+
+검색 크롤러는 `robots.txt`에서 허용합니다. 별도의 AI 전용 파일은 노출을 보장하지 않습니다.
+태그·매장 정보의 출처와 실제 데이터 갱신 시각을 표시하며, 시세는 판매 매물 기반 참고값과
+등급 기반 추정치를 구분합니다. 실제 판매 제안이 아니므로 구조화 데이터에 가격을 `Offer`로 넣지 않습니다.
 
 ## 구조
 
